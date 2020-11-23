@@ -31,6 +31,8 @@ public class Pruebas {
 		for(int i=0; i<vectorC.length; i++) {
 			System.out.print(vectorC[i] + " ");
 		}
+		
+		System.out.println(Math.floor(2.3));
 
 	}
 
