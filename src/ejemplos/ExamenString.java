@@ -32,7 +32,9 @@ public class ExamenString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(eliminarCaracter("Hola don Pepito","o"));
+		String cadena = "Hola don Pepito";
+		System.out.println(eliminarCaracter(cadena,"o"));
+		System.out.println(cadena.replaceAll(cadena,"o"));
 		
 	}
 
