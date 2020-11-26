@@ -2,37 +2,40 @@ package ejemplos;
 
 public class Pruebas {
 
+	public static int[] fila(int i, int[][] matriz) {
+		return matriz[i];
+	}
+	
+	public static void pintarVector(int[] vector) {
+		for (int i=0; i<vector.length; i++) {
+			System.out.print(vector[i]+" ");
+		}
+	}
+	
+	public static void pintarMatriz(int[][] matriz) {
+		for (int i=0; i<matriz.length; i++) {
+			for(int j=0; j<matriz[0].length; j++) {
+				System.out.print(matriz[i][j]+" ");
+			}
+			System.out.println();
+		}
+	}	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] vectorA = {1,2,3,4,5};
-		int[] vectorB = {6,7,8,9,10};
-		
-		int[] vectorC = new int[10];
-		
-		int posicion=0;
-		for(int i=0; i<vectorA.length; i++) {
-			vectorC[posicion] = vectorA[i];
-			vectorC[posicion+1] = vectorB[i];
-			posicion += 2;
- 		}
-		
-		for(int i=0; i<vectorC.length; i++) {
-			System.out.print(vectorC[i] + " ");
+		int[][] matriz = new int[10][10];
+		for(int i=0; i<matriz.length; i++) {
+			for(int j=0;j<matriz.length; j++) {
+				matriz[i][j] = i+j;
+			}
 		}
+		System.out.println("Matriz:");
+		pintarMatriz(matriz);
 		
-		posicion=0;
-		for(int i=0; i<10; i+=2) {
-			vectorC[i] = vectorA[posicion];
-			vectorC[i+1] = vectorB[posicion];
-			posicion++;
-		}
-		
-		for(int i=0; i<vectorC.length; i++) {
-			System.out.print(vectorC[i] + " ");
-		}
-		
-		System.out.println(Math.floor(2.3));
+		int[] fila = fila(2,matriz);
+		System.out.println("Vector:");
+		pintarVector(fila);
 
 	}
 
