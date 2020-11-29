@@ -36,6 +36,13 @@ public class Pruebas {
 		int[] fila = fila(2,matriz);
 		System.out.println("Vector:");
 		pintarVector(fila);
+		
+		String cadena = "Hola de verdad, te digo de verdad, que de verdad te digo";
+		System.out.println(cadena.replace("de",""));
+		
+		StringBuffer palabraSb = new StringBuffer("hola");
+		
+		System.out.println( palabraSb.insert(palabraSb.length(),palabraSb.reverse()) );
 
 	}
 
