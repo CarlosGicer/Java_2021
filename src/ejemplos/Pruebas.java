@@ -1,49 +1,62 @@
 package ejemplos;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Pruebas {
 
-	public static int[] fila(int i, int[][] matriz) {
-		return matriz[i];
-	}
-	
-	public static void pintarVector(int[] vector) {
-		for (int i=0; i<vector.length; i++) {
-			System.out.print(vector[i]+" ");
-		}
-	}
-	
-	public static void pintarMatriz(int[][] matriz) {
-		for (int i=0; i<matriz.length; i++) {
-			for(int j=0; j<matriz[0].length; j++) {
-				System.out.print(matriz[i][j]+" ");
-			}
-			System.out.println();
-		}
-	}	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int[] tabla = new int[100];
+		int aux;
+		boolean flag = false;
+		int numero=0;
 		
-		int[][] matriz = new int[10][10];
-		for(int i=0; i<matriz.length; i++) {
-			for(int j=0;j<matriz.length; j++) {
-				matriz[i][j] = i+j;
+		for (int i=0; i < tabla.length; ++i) {
+			tabla[i] = (int) ((Math.random()*99)+1);
+		}
+		
+		for (int i= tabla.length; i >0; --i) {
+			for (int j=0; j<i-1; j++) {
+				if (tabla[j]>tabla[j+1]) {
+					
+					aux = tabla[j+1];
+					tabla[j+1]=tabla[j];
+					tabla[j]=aux;
+					flag = true;
+				} else {
+					if (flag = false) {
+						break;
+					}
+				}
 			}
 		}
-		System.out.println("Matriz:");
-		pintarMatriz(matriz);
 		
-		int[] fila = fila(2,matriz);
-		System.out.println("Vector:");
-		pintarVector(fila);
+		//el primer for es para ver los numeros que si hay
+		for (int i =0; i < tabla.length; ++i) {
+					System.out.println(tabla[i]);
+			}
 		
-		String cadena = "Hola de verdad, te digo de verdad, que de verdad te digo";
-		System.out.println(cadena.replace("de",""));
+		//el segundo for para los que no hay
+		System.out.println("Los numeros que falta son: ");
+			
+		boolean encontrado=false;
+		for (int i=1; i < 100; ++i) {
+			encontrado=false;
+			for (int j=0; j < tabla.length; j++) {
+				if (i == tabla[j]) {
+					encontrado = true;
+					break;
+				}
+				if (i<tabla[j])
+					break; //Que no siga buscando en todo el array
+			}
+			if (!encontrado)
+				System.out.println(i);
+		}	
 		
-		StringBuffer palabraSb = new StringBuffer("hola");
 		
-		System.out.println( palabraSb.insert(palabraSb.length(),palabraSb.reverse()) );
-
 	}
 
 }
