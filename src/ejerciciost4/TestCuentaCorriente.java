@@ -18,6 +18,14 @@ public class TestCuentaCorriente {
 		cc2.ingreso(200);
 		cc2.cargo(250);
 		System.out.println(cc2);
+		
+		if (cc1.transferencia(cc2, 300)) {  //Quitar 100 de cc2 y se los pasa a cc1
+			System.out.println("Transferencia realizada correctamente");
+		} else {
+			System.out.println("Error en la transferencia. La cuenta de origen no tiene saldo suficiente");
+		}
+		System.out.println(cc1);
+		System.out.println(cc2);
 
 	}
 
