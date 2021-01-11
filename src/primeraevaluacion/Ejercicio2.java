@@ -18,9 +18,10 @@ public class Ejercicio2 {
 		StringBuffer strb1 = new StringBuffer();
 		StringBuffer strb2 = new StringBuffer();
 		StringBuffer resultado = new StringBuffer(mensaje.length());
-		
+			
 		for(int i=0; i<mensaje.length();i+=2) {
 			strb1.append( (char) (mensaje.charAt(i) + clave) );
+			//Cuando la cadena es impar
 			if(i<mensaje.length()-1)
 				strb2.append( (char) (mensaje.charAt(i+1) + clave) );
 		}

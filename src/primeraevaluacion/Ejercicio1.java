@@ -43,10 +43,10 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(factorial(10));
-		System.out.println(coseno(10,20)+" - "+Math.cos(10));
+		System.out.println(factorial(100));
+		System.out.println(coseno(100,70)+" - "+Math.cos(100));
 		
-		System.out.println("Porcentaje "+Math.cos(10)*100/coseno(10,20));
+	
 	}
 
 }

@@ -12,6 +12,8 @@ public class CirculoClase {
 	private double puntoX;
 	private double puntoY;
 	private double radio;
+	private static int numeroCirculos=0;
+	
 	/**
 	 * 
 	 */
@@ -20,14 +22,20 @@ public class CirculoClase {
 		this.puntoX=0;
 		this.puntoY=0;
 		this.radio=0;
+		numeroCirculos++;
 	}
 
 	/**
 	 * @param radio
 	 */
 	public CirculoClase(double radio) {
-		this();
+		
+		this.puntoX=0;
+		this.puntoY=0;
 		this.radio = radio;
+		numeroCirculos++;
+		
+		//this(0,0,radio); //Llamaría al constructor que tiene todos los parámetros
 	}
 
 	/**
@@ -40,6 +48,7 @@ public class CirculoClase {
 		this.puntoX = puntoX;
 		this.puntoY = puntoY;
 		this.radio = radio;
+		numeroCirculos++;
 	}
 
 	/**
@@ -84,19 +93,24 @@ public class CirculoClase {
 		this.radio = radio;
 	}
 
+
+
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Circulo (X=");
+		builder.append("CirculoClase [puntoX=");
 		builder.append(puntoX);
-		builder.append(", Y=");
+		builder.append(", puntoY=");
 		builder.append(puntoY);
 		builder.append(", radio=");
 		builder.append(radio);
-		builder.append(")");
+		builder.append(", número círculos=");
+		builder.append(numeroCirculos);
+		builder.append("]");
 		return builder.toString();
 	}
-	
+
 	public double area() {
 		return (Math.PI * Math.pow(this.radio, 2));
 	}

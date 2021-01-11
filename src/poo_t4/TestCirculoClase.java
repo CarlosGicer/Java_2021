@@ -9,6 +9,8 @@ public class TestCirculoClase {
 		System.out.println(c1);
 		
 		CirculoClase c2 = new CirculoClase(3,-2,10);
+		
+		
 		System.out.println(c2);
 		
 		System.out.println(c1.area() + " " + c1.longitud());

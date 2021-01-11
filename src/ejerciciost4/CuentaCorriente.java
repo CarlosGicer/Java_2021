@@ -37,6 +37,26 @@ public class CuentaCorriente {
 	}
 
 
+	public String getNumero() {
+		return numero;
+	}
+
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -49,6 +69,14 @@ public class CuentaCorriente {
 	}
 	
 	
+	public void ingreso(double cantidad) {
+		this.saldo += cantidad;
+	}
+	
+	public void cargo(double cantidad) {
+		if ( (this.saldo != 0) && ((this.saldo-cantidad) >= 0) )
+			this.saldo -= cantidad;
+	}
 
 
 	
