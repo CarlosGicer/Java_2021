@@ -1,7 +1,7 @@
 /**
  * 
  */
-package poo;
+package poo_t4;
 
 /**
  * @author alumno
