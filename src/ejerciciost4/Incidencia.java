@@ -23,9 +23,9 @@ public class Incidencia {
 	 * @param problema
 	 */
 	public Incidencia(String problema) {
-		this.codigo = Incidencia.contadorCodigos;
-		Incidencia.contadorCodigos++;
-		Incidencia.pendientes++;
+		this.codigo = Incidencia.contadorCodigos; //Cada objeto que sea crea toma el valor de la variable estática
+		Incidencia.contadorCodigos++; //Incremento la variable estática que lleva el código
+		Incidencia.pendientes++; //Incremento el contador de incidencias pendientes
 		this.problema = problema;
 		this.estado = "abierta";
 		this.solucion = "";
@@ -91,6 +91,21 @@ public class Incidencia {
 	 */
 	public static int getContadorCodigos() {
 		return Incidencia.contadorCodigos;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Incidencia [codigo=" + codigo + ", estado=" + estado + ", problema=" + problema + ", solucion="
+				+ solucion + "]";
+	}
+	
+	
+	public void resolver(String solucion) {
+		this.estado = "Resuelta";
+		this.solucion = solucion;
+		Incidencia.pendientes--;
+		
 	}
 	
 	
