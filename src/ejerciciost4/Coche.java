@@ -17,6 +17,8 @@ public class Coche {
 	private double alto;
 	private int caballos;
 	private double consumoALosCien;
+	private double precio;
+	
 	/**
 	 * @param marca
 	 * @param modelo
@@ -26,9 +28,10 @@ public class Coche {
 	 * @param alto
 	 * @param caballos
 	 * @param consumoALosCien
+	 * @param precio
 	 */
 	public Coche(String marca, String modelo, String color, double largo, double ancho, double alto, int caballos,
-			double consumoALosCien) {
+			double consumoALosCien, double precio) {
 		super();
 		this.marca = marca;
 		this.modelo = modelo;
@@ -38,7 +41,10 @@ public class Coche {
 		this.alto = alto;
 		this.caballos = caballos;
 		this.consumoALosCien = consumoALosCien;
+		this.precio = precio;
 	}
+
+
 	/**
 	 * @return the marca
 	 */
@@ -135,6 +141,23 @@ public class Coche {
 	public void setConsumoALosCien(double consumoALosCien) {
 		this.consumoALosCien = consumoALosCien;
 	}
+	
+	/**
+	 * @return the precio
+	 */
+	public double getPrecio() {
+		return precio;
+	}
+
+
+	/**
+	 * @param precio the precio to set
+	 */
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	
+	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -154,8 +177,37 @@ public class Coche {
 		builder.append(caballos);
 		builder.append(", consumoALosCien=");
 		builder.append(consumoALosCien);
-		builder.append("]");
+		builder.append(", precio=");
+		builder.append(precio);
+		builder.append("€]");
 		return builder.toString();
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		 if (this == obj)
+			 return true;
+		 if (obj == null)
+			 return false;
+
+		 if (getClass() != obj.getClass()) //Compruebo que sean de la misma clase
+			 return false;
+		 
+		 Coche other=(Coche) obj; //Casting, ver a obj (Object) como un Coche
+		 //Comparar que tengan internamente los mismos valores
+		 if ( (!marca.equals(other.getMarca())) ||
+				 (!modelo.equals(other.getModelo())) ||
+				 (!color.equals(other.getColor())) ||
+				 (largo != other.getLargo()) ||
+				 (ancho != other.getAncho()) ||
+				 (alto != other.getAlto()) ||
+				 (caballos != other.getCaballos()) ||
+				 (consumoALosCien != other.getConsumoALosCien()) ||
+				 (precio != other.getPrecio()) )
+			 return false;
+		
+		 return true;
 	}
 	
 	
