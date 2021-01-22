@@ -153,38 +153,5 @@ public class Concesionario {
 		return false;
 	}
 	
-	
-	
-	
-	
-	
-	/*
-	public boolean venderCoche(Coche unCoche, double precio) {
-		//Recorremos todos los coches hasta encontrar el que se va a vender
-		for(int i=0; i<this.numCoches; i++) {
-			if (this.coches[i].equals(unCoche)) {
-				//Se podría comprobar que no se venda a menor precio.
-				this.ganancias += (precio - this.coches[i].getPrecio());
-				
-				//Ese coche lo borramos del array poniendo el elemento de su posición a null
-				this.coches[i] = null;
-				
-				//Desplazamos los coches siguientes hacia la izquierda para no dejar nulls en medio
-				for (int j=i; i<this.getNumCochesMaximo()-1; i++)
-					this.coches[j]=this.coches[j+1];
-
-				this.numCoches--;
-				
-				return true;
-			}
-		}
 		
-		return false;
-	}
-	*/
-
-
-
-	
-	
 }
