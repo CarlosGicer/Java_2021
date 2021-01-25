@@ -70,6 +70,12 @@ public class Cuadrado extends FiguraGeo {
 			return false;
 		return true;
 	}
+	
+	@Override
+	public double area() {
+		System.out.println("area en Cuadrado");
+		return this.lado*4;
+	}
 
 
 

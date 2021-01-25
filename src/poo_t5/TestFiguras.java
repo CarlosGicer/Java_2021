@@ -1,7 +1,28 @@
 package poo_t5;
 
-public class TestFiguras {
+import java.util.ArrayList;
 
+public class TestFiguras {
+	
+	private ArrayList<FiguraGeo> figuras;
+
+	
+	TestFiguras() {
+		figuras = new ArrayList<FiguraGeo>();
+	}
+	
+	public void addFigura(FiguraGeo fg) {
+		figuras.add(fg);
+	}
+
+	public double area() {
+		double area=0;
+		for(FiguraGeo i : this.figuras) {
+			area += i.area(); //Aquí habrá polimorfismo, porque se ejecutará el método area() de la clase correspondiente
+		}
+		return area;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -29,6 +50,18 @@ public class TestFiguras {
 		} else {
 			System.out.println("Los dos cuadrados son diferentes");
 		}
+		
+		//Añadimos figuras a FiguraGeo
+		TestFiguras tf = new TestFiguras();
+		tf.addFigura(c1);
+		tf.addFigura(t1);
+		tf.addFigura(c2);
+		tf.addFigura(t2);
+		tf.addFigura(f1);
+		System.out.println(tf.area());
+		
+		tf = null; //Liberaría toda la memoria de tf, y todas las figuras que tiene dentro
+
 		
 	}
 

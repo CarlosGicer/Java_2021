@@ -70,7 +70,11 @@ public class Triangulo extends FiguraGeo {
 		return builder.toString();
 	}
 
-	
+	@Override
+	public double area() {
+		System.out.println("area en Triángulo");
+		return this.base * this.altura;
+	}
 	
 
 }

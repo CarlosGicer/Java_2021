@@ -9,7 +9,7 @@ package poo_t5;
  */
 public class FiguraGeo {
 	
-	protected String color;
+	protected String color; //private no permitiría el acceso en las subclases
 	protected String nombre;
 
 
@@ -74,6 +74,13 @@ public class FiguraGeo {
 			return false;
 		return true;
 	}
+	
+	public double area() {
+		System.out.println("area en FiguraGeo");
+		return 0;
+	}
+	
+
 	
 
 }
