@@ -171,6 +171,14 @@ public class NotasCurso {
 		this.calcularNotaFinal();
 	}
 	
+	
+	/**
+	 * @return the notaFinal
+	 */
+	public double getNotaFinal() {
+		return notaFinal;
+	}
+
 	/**
 	 * @return true si la notaFinal es mayor o igual que 5. En caso contrario false
 	 */
@@ -185,7 +193,7 @@ public class NotasCurso {
 	 * @return double - media aritmética de las notas de las tres evaluaciones
 	 */
 	public double calcularNotaFinal() {
-		this.notaFinal = (this.nota1EV * this.nota2EV * this.nota3EV) / 3;
+		this.notaFinal = (this.nota1EV + this.nota2EV + this.nota3EV) / 3;
 		return notaFinal;
 	}
 	
