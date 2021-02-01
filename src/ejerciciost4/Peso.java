@@ -49,7 +49,55 @@ public class Peso {
 		}
 
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Peso [pesoKilogramos=");
+		builder.append(pesoKilogramos);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
+	public double getPeso(String medida) {
+		
+		switch (medida) {
+			case "Lb": {
+				return (this.pesoKilogramos / 0.483);
+			}
+			case "Li": {
+				return (this.pesoKilogramos / 14.59);
+			}
+			case "Oz": {
+				return (this.pesoKilogramos / 0.02835);
+			}
+			case "P": {
+				return (this.pesoKilogramos / 0.00155);
+			}
+			case "K": {
+				return (this.pesoKilogramos);
+			}
+			case "G": {
+				return (this.pesoKilogramos * 1000);
+			}
+			case "Q": {
+				return (this.pesoKilogramos / 43.3);
+			}
+			default: {
+				return 0;
+			}
+			
+		}
+	}
+	
+	public double getLibras() {
+		return getPeso("Lb");
+	}
+	
+	public double getLingotes() {
+		return getPeso("Li");
+	}
+	
+	
 }
