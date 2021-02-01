@@ -7,110 +7,49 @@ package ejerciciost4;
  * @author sjgui
  *
  */
-
 public class Peso {
 	
-	private double peso;
-	private String medida;
-	
+	private double pesoKilogramos;
 
 	/**
-	 * @param peso
-	 * @param medida
+	 * @param pesoKilogramos
 	 */
 	public Peso(double peso, String medida) {
 		super();
-		//PESO SE TOMA COMO MEDIDA INICIAL EN KILOS Y LURGO SE PASA A LA MEDIDA ELEGIDA 
-		this.peso = peso;
-		this.medida = medida;
-	}
+		this.pesoKilogramos = convertir(peso, medida);
+	} 
 	
-	private double cambiarAKilos() {
-		double num = 1 ;
-		switch (this.medida) {
-			case "Lb": 
-				num = this.peso * 0.453;
-				break;
-			case "Li": 
-				num = this.peso * 14.59;
-				break;
-			case "Oz": 
-				num = this.peso * 0.02835;
-				break;
-			case "P": 
-				num = this.peso * 0.00155;
-				break;
-			case "K": 
-				num = this.peso * 1;
-				break;
-			case "G": 
-				num = this.peso * 0.001;
-				break;
-			case "Q": 
-				num = this.peso * 43.3;
-				break;
-			default:
-				num = this.peso * 1;
-		}
+	public double convertir(double peso, String medida) {
 		
-		return num;	
-	}
-	
-	private double cambiarAMedida(String medida) {
-		double num = 1;
-		double kilos = cambiarAKilos();
 		switch (medida) {
-			case "Lb": 
-				num = kilos / 0.453;
-				break;
-			case "Li": 
-				num = kilos / 14.59;
-				break;
-			case "Oz": 
-				num = kilos / 0.02835;
-				break;
-			case "P": 
-				num = kilos / 0.00155;
-				break;
-			case "K": 
-				num = kilos / 1;
-				break;
-			case "G": 
-				num = kilos / 0.001;
-				break;
-			case "Q": 
-				num = kilos / 43.3;
-				break;
-			default:
-				num = kilos * 1;
+			case "Lb": {
+				return (peso * 0.483);
+			}
+			case "Li": {
+				return (peso * 14.59);
+			}
+			case "Oz": {
+				return (peso * 0.02835);
+			}
+			case "P": {
+				return (peso * 0.00155);
+			}
+			case "K": {
+				return (peso);
+			}
+			case "G": {
+				return (peso / 1000);
+			}
+			case "Q": {
+				return (peso * 43.3);
+			}
+			default: {
+				return 0;
+			}
 		}
-		
-		return num;
+
 	}
 	
-	public double getLibras() {
-		return cambiarAMedida("Lb");
-		
-	}
 	
-	public double getLingotes() {
-		return cambiarAMedida("Li");
-		
-	}
-	
-	public double getPeso(String medida) {
-		
-		return cambiarAMedida(medida);
-		
-	}
-	
-	public static void main(String[] args) {
-		Peso p1 = new Peso(150,"Lb");
-		System.out.println(p1.getLibras());
-		System.out.println(p1.getPeso("K"));
-		
-		Peso p2 = new Peso(67.95,"K");
-		System.out.println(p2.getLibras());
-		System.out.println(p2.getPeso("K"));
-	}
+
 }

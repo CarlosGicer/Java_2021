@@ -69,7 +69,7 @@ public class EjemploClonacion implements Cloneable {
 
 
 	public Object clone() {
-	        Object clone = null;
+	         Object clone = null;
 	         try {
 	             clone = super.clone();
 	         } catch(CloneNotSupportedException e) {
@@ -77,10 +77,17 @@ public class EjemploClonacion implements Cloneable {
 	         }
 	         
 	         // Aqui viene la implementacion de la clonación "profunda" ('deep clone')
-	         ((EjemploClonacion)clone).setNombre(this.nombre);
-	         ((EjemploClonacion)clone).setApellidos((ArrayList<String>)this.apellidos.clone());
+	         ((EjemploClonacion) clone).setNombre(this.nombre);
+	         ((EjemploClonacion) clone).setApellidos((ArrayList<String>)this.apellidos.clone());
 	         
 	         return clone;
 	    }
+	
+	public static void main(String[] args) {
+		EjemploClonacion ec = new EjemploClonacion("ll",new ArrayList<String>());
+		EjemploClonacion ec2 =  (EjemploClonacion) ec.clone();
+	}
+	
+	
 	
 }
