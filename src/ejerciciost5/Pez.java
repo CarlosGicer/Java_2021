@@ -92,6 +92,8 @@ public class Pez implements Cloneable {
 		
 		System.out.println(sardina);
 		System.out.println(boqueron);
+		
+		
 	}
 	
 		
