@@ -120,6 +120,20 @@ public class TestAgenda {
 					break;
 			}
 		}while(!(opcion == 6));
+		
+
+		Contacto c1;
+		c1 = new Cliente("Javier","6546464","23423424","correo");
+		
+		System.out.println(c1.toString());
+		System.out.println(((Cliente) c1).getEmail());
+		
+		
+		
 	}
+	
+	
+	
+	
 
 }
