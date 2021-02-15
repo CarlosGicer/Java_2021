@@ -8,79 +8,102 @@ public class TestAhorcado {
 	 */
 	public static void main(String[] args) {
 		
-		Ahorcado ahorcado1 = new Ahorcado( );
+		int opcion = 0;
 		Scanner tcl = new Scanner(System.in);
-		int opcion;
-		char caracter;
+		char letra;
+		int intentos = 7;
+		String palabra;
 		
-		ahorcado1.getPalabraAdivinar( );
-		ahorcado1.getNumLetrasPalabra( );
+		
+		//voy a utilizar parte del codigo del master mind del examen para hacerlo jugable
 		
 		do {
-		
-			System.out.println("\t\t-- JUEGO DEL AHORCADO ---");
-			System.out.println("\t\t ------ ");
-			System.out.println("\t\t |     | ");
-			System.out.println("\t\t |     O ");
-			System.out.println("\t\t |    -|- ");
-			System.out.println("\t\t |  _ / |_  ");
-			System.out.println("\t\t |        ");
-			System.out.println("\t 1) INTENTAR  ");
-			System.out.println("\t 2) RESOLVER ");
-			System.out.println("\t 3) SALIR");
-			
+			//Opciones del menu
+					
+			System.out.println("------Ahorcado------");
+			System.out.println("1. Nueva partida");
+			System.out.println("2. Salir");
+			//Pedir por teclado un numero
+					
 			do {
 				opcion = tcl.nextInt();
-				
 				switch (opcion) {
-					case 1:
-							System.out.println("Introduce una letra: ");
-							caracter = tcl.next().charAt(0);
+				
+				case 1:
+					boolean flag = false; //si volvemos a crear una partida, reinicia el flag
 							
-							if(ahorcado1.intentar(caracter)) {
-								System.out.println(ahorcado1);
-						}else {
-					
-							System.out.println("\n");
-							System.out.println("\t\t ------ ");
-							System.out.println("\t\t |     | ");
-							System.out.println("\t\t |     O ");
-							System.out.println("\t\t |    -|- ");
-							System.out.println("\t\t |  _ / |_  ");
-							System.out.println("\t\t |        ");
-							System.out.println("\t\tGAME OVER!!");
-							System.out.println("\t\tESTAS AHORCADO!!");
-							System.out.println("\n");
+					Ahorcado ah = new Ahorcado();//Creamos un objeto nuevo con una palabra "aleatoria"
+					System.out.println("Adivina una palabra de "+ ah.getLargoPalabra()+" letras");
+					System.out.println("Tienes 7 intentos");	
+					do {
+						//Otro menu para resolver
+							
+						if (ah.getNumIntentos() == intentos) {
+							System.out.println("Lamentablamente, te has quedado sin intentos");
+							flag = true;
+							break;
 						}
-						break;
-						
-					case 2:
-						
-						Scanner sc = new Scanner(System.in);
-						System.out.println("Dime la palabra: ");
-						String palabra = sc.nextLine();
-						
-						if(ahorcado1.resolver(palabra))
-							System.out.println("HAS GANADO!!");
-						else
-							System.out.println("No has acertado");
-						break;
-						
-					case 3:
-						System.out.println("Pulsado 3");
-						break;
-					
-					default: 
-						System.out.println("Opción incorrecta. Pulsa una opción (1,2,3)");
-				}
-				
-				
-			} while (opcion < 1 || opcion > 3); //Que pida por teclado mientras no escriba 1,2 o 3
+						System.out.println("------Partida------");
+						System.out.println("1. Pedir letra");
+						System.out.println("2. Resolver palabra");
+						System.out.println("3. Rendirse");
+							
+						opcion = tcl.nextInt();
+						switch (opcion) {
+						case 1:
+							do {
+								System.out.println("Introduce la letra a intentar");
+								letra = tcl.next().charAt(0);
+							}while (ah.esLetra(letra) == false);
+								
+							
+							if (ah.intentar(letra)) {
+								System.out.println("Esa letra era correcta");
+								System.out.println(ah);
+								//Comprobar que está resuelta
+								//Si es así me salgo con un boolean o con un break;
+								
+							} else {
+								System.out.println("Esa letra no estaba");
+								System.out.println("Tienes "+(7 - ah.getNumIntentos()) +" intentos mas");
+								System.out.println(ah);
+							}
+							break;
+						case 2:
+							System.out.println("Introduce la palabra a intentar");
+							palabra = tcl.next();
+							if (ah.resolver(palabra)) {
+								System.out.println("Exacto! esa era la palabra!");
+								System.out.println("Lo has conseguido en "+ah.getNumIntentos()+" intentos");
+								flag = true;
+							} else {
+								System.out.println("Esa no era la palabra");
+								System.out.println("Tienes "+(7 - ah.getNumIntentos()) +" intentos mas");
+							}
+							break;
+						case 3:
+							System.out.println("Vaya, ni siquiera lo has intentado");
+							flag = true;
+							
+							break;
+						default:
+							System.out.println("Opcion incorrecta");
+						}
+								
+					}while (flag == false);
 			
-		} while(opcion != 3);
-		
+					
+				case 2:		
+					break;	
+				default:
+					System.out.println("Opcion incorrecta. Pulsa una opocion (1 o 2)");		
+			
+				}
+			}while (opcion < 1 || opcion > 2); //Que pida por teclado mientras no escriba 1 o 2.
+		} while(opcion != 2); //si introduces el 2, salimos.
 		tcl.close();
+	}			
 		
-	}
-
 }
+
+

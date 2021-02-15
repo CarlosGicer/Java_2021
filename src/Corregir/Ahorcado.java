@@ -9,109 +9,104 @@ import java.util.Scanner;
  */
 public class Ahorcado {
 	
-	//Atributos
-			private static String[] palabras = {"coche", "bicicleta", "montaña", "carretera", "puerto", "playa", "gato", "perro", "patinete", "globo"};
-			private String palabraAdivinar; //palabrAdeivinar.length
-			private char[] palabraIntentada;//palabra adivinar con las letras acertadas a_a
-			private int numeroIntentos;//El  numero de intentos
-			
-			//Constructor
-			/**
-			 * @param palabraAdivinar
-			 * @param palabraIntentada
-			 */
-			public Ahorcado( ) {
-				int pos = ((int) (Math.random()*10));
-				this.palabraAdivinar=palabras[pos];
-				palabraIntentada = new char[this.palabraAdivinar.length()];
-				for(int i=0; i<palabraAdivinar.length();i++)
-					this.palabraIntentada[i] = '_';
-			}
-			
-			//Cuerpo
-			/**
-			 * @return el palabraAdivinar
-			 */
-			public String getPalabraAdivinar() {
-							
-				return palabraAdivinar;
-			}
-			/**
-			 * @param palabraAdivinar el palabraAdivinar a establecer
-			 */
-			public void setPalabraAdivinar(String palabraAdivinar) {
-				this.palabraAdivinar = palabraAdivinar;
-			}
-			/**
-			 * @return el palabraIntentada
-			 */
-			public String getPalabraIntentada() {
-				return String.valueOf(palabraIntentada);
-			}
-			/**
-			 * @param palabraIntentada el palabraIntentada a establecer
-			 */
-			public void setPalabraIntentada(String palabraIntentada) {
-				this.palabraIntentada = palabraIntentada.toCharArray();
-			}
-			/**
-			 * @return el palabras
-			 */
-			public static String[] getPalabras() {
-				return palabras;
-			}
-			
-			/***
-			 *Metodo devuelve le numero de letras de la palabra adivinar
-			 * @return
-			 */
-		     public int getNumLetrasPalabra() {
+	private static String[] palabras = {"ahorcado","telefono","temblar","apostar","criatura","violeta","hoguera","pantalla","plancha","ballena"}; //lista de palabras
+	private String adivinar; //la palabra aleatoria
+	private int contador; //cuenta de intentos, a 7 pierdes.
+	private boolean comprobar;
+	private char[] resuelta;
+	
+	/**
+	 * Al crear un nuevo objeto, este coge al azar una palabra del pool de palabras.
+	 */
+	public Ahorcado() {
+		adivinar = palabras[(int)(Math.random()*10)];
+		contador=0;
+		resuelta = new char[adivinar.length()]; //_ _ _ _
 
-				return palabraAdivinar.length();
-			}
-			
+		for (int i =0; i <= adivinar.length()-1;i++) {
+			this.resuelta[i] = '_';
+		}
 		
-			public boolean intentar(char letra) {
-				//Sustituir la letra correspondent en la palabraIntentada en las posiciones que este la plabra adivinarAdivinar
-				//Si no se encuentra se incrementa el  numero de intentos (fallos)
-				if(numeroIntentos<=6) {
-					for(int i=0; i<palabraAdivinar.length(); i++) {
-						if( this.palabraAdivinar.charAt(i)==letra) {
-							this.palabraIntentada[i]=letra;
-						}
-					}
-					
-					}
-					else {
-						return false;
-					}
-				numeroIntentos++;
-				return true;
+	}
+	
+	/**
+	 * @return la longitud de la palabra que se haya generado al azar.
+	 */
+	public int getLargoPalabra() {
+		return adivinar.length();
+	}
+	/**
+	 * @return el numero de intentos que llevamos en la partida
+	 */
+	public int getNumIntentos() {
+		return contador;
+	}
+	/**
+	 * @return La palabra que estamos resolviendo letra a letra
+	 */
+	public char[] getResuelta() {
+		return resuelta;
+	}
+	/**
+	 * si alguna letra coincide, devuelve true, si no, false y añade 1 al contador de fallos
+	 * @param letra pasada durante el intento de resolver
+	 * @return true si la letra existia, false si no.
+	 */
+	public boolean intentar(char letra) {
+		
+		this.comprobar = false;
+		//comprobamos letra a letra
+		for (int i=0; i<this.adivinar.length(); i++) {
+			if (this.adivinar.charAt(i) == letra) {
+				this.comprobar = true;
+				this.resuelta[i] = letra; //_------------------------->
+			}
+		}	
+		if (this.comprobar == false) {
+			this.contador ++;
+		}
+		return comprobar;
+	}
 
-			}
-			
-			public boolean resolver(String palabra) {
-				
-				if(this.palabraAdivinar.equals(palabra))
-						return true;
-				else
-					return false;
-			}
 
-			
-			@Override
-			public String toString() {
-				StringBuilder builder = new StringBuilder();
-				builder.append("Ahorcado [palabraAdivinar=");
-				builder.append(palabraAdivinar);
-				builder.append(", palabraIntentada=");
-				builder.append(palabraIntentada);
-				builder.append(", numeroIntentos=");
-				builder.append(numeroIntentos);
-				builder.append(", La palabra tiene =");
-				builder.append(getNumLetrasPalabra());
-				builder.append(" letras ]");
-				return builder.toString();
-			}
+	/**
+	 * si la palabra coincide, devuelve true, si no, false y añade 1 al contador de fallos
+	 * @param palabra pasada durante el intento de resolver por completo
+	 * @return correto si es la palabra, falso si era otra.
+	 */
+	public boolean resolver(String palabra) {
+		this.comprobar = false;
+		if (palabra.equals(adivinar)) {
+			comprobar = true;
+		} else {
+			this.contador ++;
+		}
+		return comprobar;
+	}
+	
+	/**
+	 * comprobamos que cada letra pasada, en numeros ascii, corresponde con cualquier letra
+	 * minuscula o mayuscula, incluso la ñ
+	 */
+	public boolean esLetra(char intento) {
+		boolean valida = false;
+		if (((int)intento >= 65 && (int)intento <= 90) || ((int)intento >= 97 && (int)intento <= 122) || ((int)intento >= 164) && (int)intento <= 165) {
+			return true;
+		}
+		return valida;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Ahorcado [contador=");
+		builder.append(contador);
+		builder.append(", resuelta=");
+		for(int i=0; i<resuelta.length; i++) {
+			builder.append(resuelta[i]+" ");
+		}
+		builder.append("]");
+		return builder.toString();
+	}
 			
 }
