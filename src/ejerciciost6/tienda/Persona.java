@@ -9,12 +9,12 @@ package ejerciciost6.tienda;
  */
 public class Persona {
 
-	private String identificador;
-	private String nombre;
-	private String email;
-	private String movil;
+	protected String identificador;
+	protected String nombre;
+	protected String email;
+	protected String movil;
 	
-	private Direccion direccion;
+	protected Direccion direccion;
 
 	/**
 	 * @param identificador

@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Producto {
 
-	private String codigo;
-	private String nombre;
-	private String descripcion;
-	private double precioUnitario;
+	protected String codigo;
+	protected String nombre;
+	protected String descripcion;
+	protected double precioUnitario;
 	
 	private ArrayList<Proveedor> proveedores;
 	
