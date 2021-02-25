@@ -2,6 +2,10 @@ package poo_t6;
 
 public class Futbolista {
 
+	public enum Demarcacion {
+		PORTERO, DEFENSA, CENTROCAMPISTA, DELANTERO
+	}
+	
 	private int dorsal;
 	private String Nombre;
 	private Demarcacion demarcacion;
@@ -21,6 +25,7 @@ public class Futbolista {
 		return this.dorsal + " - " + this.Nombre + " - "
 				+ this.demarcacion.name() + " - " + this.equipo.getNombreClub();
 	}
+	
 	
 	public static void main(String[] args) {
 		Futbolista casillas = new Futbolista("Casillas", 1, Demarcacion.PORTERO, Equipo.REAL_MADRID);
