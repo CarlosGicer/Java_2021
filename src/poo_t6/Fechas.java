@@ -10,9 +10,21 @@ import java.time.Month;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
+import java.util.Locale;
 
 public class Fechas {
 
+	
+	public static String diaCumple(LocalDate fechaCumple, int año) {
+		
+		LocalDate fecha = fechaCumple.withYear(año);
+		
+		String dateInSpanish=fecha.format(DateTimeFormatter.ofPattern("EEEE", Locale.forLanguageTag("es-ES")));
+		
+		return dateInSpanish;
+	}
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub 
 		
@@ -97,6 +109,8 @@ public class Fechas {
 
 		LocalDateTime dt = LocalDateTime.of(fecha, hora);
 		String fechaFormateada2 = dt.format(formato);
+		
+		System.out.println(diaCumple(LocalDate.of(1977, 10, 10),2005));
 		
 		
 		
