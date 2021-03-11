@@ -16,11 +16,11 @@ public class Test {
 		}
 		
 		PrimeVideo pv = new PrimeVideo();
-		for(long i=0; i<1500000;i++) {
+		for(long i=0; i<2500000;i++) {
 			ClientePrimePro cpp = new ClientePrimePro();
 			pv.addSuscriptor(cpp);
 		}
-		for(long i=0; i<6500000;i++) {
+		for(long i=0; i<7500000;i++) {
 			ClientePrime cp = new ClientePrime();
 			pv.addSuscriptor(cp);
 		}

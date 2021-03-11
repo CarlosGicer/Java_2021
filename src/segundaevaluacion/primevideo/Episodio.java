@@ -11,7 +11,7 @@ public class Episodio {
 	
 	private String titulo;
 	private int duracion;
-	private Temporada temporada;
+	private Temporada temporada;  // ????
 
 	/**
 	 * 

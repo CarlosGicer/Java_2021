@@ -13,7 +13,7 @@ public class Temporada {
 
 	private ArrayList<Episodio> episodios;
 	private int numero;
-	private Serie serie;
+	private Serie serie; // ?????
 	
 	/**
 	 * 
@@ -68,8 +68,11 @@ public class Temporada {
 	}
 	
 	public void addEpisodio(Episodio episodio) {
-		episodio.setTemporada(this);
-		this.episodios.add(episodio);
+		episodio.setTemporada(this); // Ojo a esto. 
+								     // Marca que el episodio pertenece a la termporada 
+		                             // que lo quiere añadir. 
+		
+		this.episodios.add(episodio); //Luego añado el episodio a la temporada
 	}
 	
 	public boolean delEpisodio(Episodio episodio) {

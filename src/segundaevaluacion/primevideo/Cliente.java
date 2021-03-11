@@ -76,19 +76,7 @@ public abstract class Cliente {
 		this.email = email;
 	}
 
-	/**
-	 * @return the precioMensual
-	 */
-	public abstract double getPrecioMensual();
 	
-
-	/**
-	 * @param precioMensual the precioMensual to set
-	 */
-	public void setPrecioMensual(double precioMensual) {
-		this.precioMensual = precioMensual;
-	}
-
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -126,6 +114,11 @@ public abstract class Cliente {
 			return false;
 		return true;
 	}
+	
+	/**
+	 * @return the precioMensual
+	 */
+	public abstract double getPrecioMensual();
 	
 	public abstract boolean esPro();
 	

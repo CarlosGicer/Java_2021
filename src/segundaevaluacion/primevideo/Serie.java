@@ -52,8 +52,11 @@ public class Serie extends Multimedia {
 	}
 	
 	public void addTemporada(Temporada temporada) {
-		temporada.setSerie(this);
-		this.temporadas.add(temporada);
+		temporada.setSerie(this); // Ojo a esto
+		                          // Primero le digo a la temporada que la voy a añadir a 
+								  // esta serie, y le pongo su atributo
+		
+		this.temporadas.add(temporada);  // Luego ya puedo añadir la temporada a la serie
 	}
 	
 	public boolean delTemporada(Temporada temporada) {
