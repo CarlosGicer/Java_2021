@@ -7,16 +7,17 @@ public class TestIP {
 
         int dir[] = {192, 168, 2, 0};
 		DireccionIPv4 ip2 = new DireccionIPv4(dir);
+		System.out.println(ip + " " + ip2);
 		
 		DireccionIPv4 ip3 = null;
 		try {
-			ip3 = new DireccionIPv4("192.168.1.25");
+			ip3 = new DireccionIPv4("129.168.1.22");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		System.out.println(ip3.toBinario()+" "+ip3.clase());
+		System.out.println(ip3 + " " + ip3.clase() + " " + ip3.toBinario());
 		
-		
+				
 		DireccionIPv4 ipr1 = null;
 		DireccionIPv4 ipr2 = null;
 		DireccionIPv4 ipr3 = null;
@@ -29,13 +30,16 @@ public class TestIP {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		RedIP rp = new RedIP(24, ip2);
+		
+		
+		RedIP rp = new RedIP(24, ip2); //Máscara = 24, Dirección de red = 192.168.2.0
 		rp.addIP(ipr1);
 		rp.addIP(ipr2);
 		rp.addIP(ipr3);
 		rp.addIP(ipr4);
 		
 		System.out.println(rp);
+		
 		
 	}
 

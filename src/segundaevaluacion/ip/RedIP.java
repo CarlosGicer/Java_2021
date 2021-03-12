@@ -10,7 +10,7 @@ public class RedIP {
 	
 	public RedIP() {
 		super();
-		direcciones = new ArrayList<>();
+		this.direcciones = new ArrayList<>();
 	}
 
 	/**
@@ -21,7 +21,7 @@ public class RedIP {
 		super();
 		this.mascara = mascara;
 		this.red = red;
-		direcciones = new ArrayList<>();
+		this.direcciones = new ArrayList<>();
 	}
 	
 	/**
@@ -29,7 +29,7 @@ public class RedIP {
 	 * @param unaIP
 	 */
 	public void addIP(DireccionIPv4 unaIP) {
-		if(validarDireccion(unaIP))
+		if(validarDireccion(unaIP)) //Comprueba que la dirección IP a añadir está en esa red
 			direcciones.add(unaIP);
 	}
 	
@@ -37,7 +37,7 @@ public class RedIP {
 	 * Elimina IP de la red
 	 * @param unaIP
 	 */
-	public void removIP(DireccionIPv4 unaIP) {
+	public void removeIP(DireccionIPv4 unaIP) {
 		for(DireccionIPv4 ip : direcciones) {
 			if (ip.equals(unaIP)) {
 				direcciones.remove(ip);
@@ -67,10 +67,10 @@ public class RedIP {
 	 * @return
 	 */
 	private boolean validarDireccion(DireccionIPv4 unaIP) {
-		StringBuilder strIP = new StringBuilder(unaIP.toBinario());
-		StringBuilder strRed = new StringBuilder(this.red.toBinario());
+		String strIP = new String(unaIP.toBinario());
+		String strRed = new String(this.red.toBinario());
 		
-		for(int i=0; i<mascara-1; i++) {
+		for(int i=0; i<mascara-1; i++) { //Comparo tantos bits en las dos direcciones como indica la máscara
 			if (strIP.charAt(i) != strRed.charAt(i))
 				return false;
 		}

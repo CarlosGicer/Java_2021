@@ -25,32 +25,41 @@ public class DireccionIPv4 implements Validable {
 		this.octetos = octetos;
 	}
 	
+	/**
+	 * Convierte una IPv4 en String a los octetos de esta clase
+	 * @param direccion, IPv4 como String, separado por puntos
+	 * @throws Exception
+	 */
 	public DireccionIPv4(String direccion) throws Exception {
 		        
-		StringTokenizer tokens;        
-		tokens = new StringTokenizer(direccion, ".");   
+		StringTokenizer tokens = new StringTokenizer(direccion, ".");   
 		int cont=0;
-		int dir[] = new int[4];
+		int dir[] = new int[4]; //La dirección para asignar al atributo
 		while (tokens.hasMoreTokens()) {
-			if (cont == 4) { //Tiene más de 4 octetos
-				throw new Exception("Exception: Dirección IP no válida, más de 4 octetos");
+			if (cont>=4) {
+				throw new Exception("Exception: Dirección IP no válida, más octetos de 4");
 			}
 			
-			dir[cont] = Integer.parseInt(tokens.nextToken().trim());
-			cont++;
+			try {
+				dir[cont] = Integer.parseInt(tokens.nextToken().trim());
+				cont++;
+			} catch (NumberFormatException e) {
+				throw new Exception("Exception: Dirección IP no válida, un octeto no es un número");
+			}
 		}
 		
-		//Tiene menos de 4 octetos
-		if (cont < 4) {
-			throw new Exception("Exception: Dirección IP no válida, menos de 4 octetos");
+		if(cont!=4) {
+			throw new Exception("Exception: Dirección IP no válida, menos octetos");
 		}
+		
+		//Asignamos lo que hemos sacado con StringTokenizer a los atributos
+		this.octetos = dir;
 		
 		//Validamos cada octeto
 		if (!valida()) {
+			this.octetos = new int[4];
 			throw new Exception("Exception: Dirección IP no válida, algún octeto fuera de rango (0-255)");
-		} else {
-			this.octetos = dir;
-		}
+		} 
 
 	}
 
@@ -60,7 +69,7 @@ public class DireccionIPv4 implements Validable {
 	 * @return
 	 */
 	public boolean valida() {
-		for(int i=0; i<4; i++) {
+		for(int i=0; i<octetos.length; i++) {
 			if ((octetos[i] < 0) || (octetos[i] > 255))
 				return false;	
 		}
