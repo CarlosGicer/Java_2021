@@ -8,7 +8,7 @@ public class UltimaCifra {
 	 */
 	public static int ultimaCifraNumero(int numero) {
 		String numeroString = Integer.toString(numero);
-		return Integer.parseInt(Integer.toString(numero).substring(numeroString.length()-1));
+		return Integer.parseInt(numeroString.substring(numeroString.length()-1));
 	}
 
 
