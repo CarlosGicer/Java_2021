@@ -15,6 +15,18 @@ public class Coche extends Vehiculo {
 		super();
 	}
 
+	
+	/**
+	 * @param matricula
+	 * @param marca
+	 */
+	public Coche(String matricula) {
+		this.matricula = matricula;
+		this.marca = "";
+		this.comb = Combustible.DIESEL;
+	}
+
+
 	/**
 	 * @param matricula
 	 * @param marca
