@@ -22,6 +22,7 @@ public class DireccionIPv4 implements Validable {
 	 */
 	public DireccionIPv4(int[] octetos) {
 		super();
+		//Falta llamar a validar
 		this.octetos = octetos;
 	}
 	
