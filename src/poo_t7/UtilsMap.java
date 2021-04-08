@@ -72,8 +72,8 @@ public class UtilsMap {
 		Iterator it = set.iterator();
 		while (it.hasNext()) {
 			Map.Entry me = (Map.Entry)it.next();
-		    System.out.print("Key is: "+me.getKey() + " & ");
-		    System.out.println("Value is: "+me.getValue());
+		    System.out.print("Clave: "+me.getKey() + " -> ");
+		    System.out.println("Valor: "+me.getValue());
 		}
 		
 		return builder.toString();
