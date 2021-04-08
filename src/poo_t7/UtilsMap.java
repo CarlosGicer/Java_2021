@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
@@ -66,7 +68,13 @@ public class UtilsMap {
 	public String mostrar2() {
 		StringBuilder builder = new StringBuilder();
 		//Manera 2 de recorrer un Map, a través de un iterador
-		Iterator<String> it = diccionario.iterator();
+		Set set = diccionario.entrySet();
+		Iterator it = set.iterator();
+		while (it.hasNext()) {
+			Map.Entry me = (Map.Entry)it.next();
+		    System.out.print("Key is: "+me.getKey() + " & ");
+		    System.out.println("Value is: "+me.getValue());
+		}
 		
 		return builder.toString();
 	}
@@ -82,6 +90,7 @@ public class UtilsMap {
 		System.out.println(um.claves());
 		System.out.println(um.valores());
 		System.out.println(um.mostrar());
+		System.out.println(um.mostrar2());
 	}
 	
 }
