@@ -3,11 +3,13 @@
  */
 package poo_t7;
 
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
@@ -80,13 +82,67 @@ public class Nio2Stream {
         		.sorted()
         		.map(String::valueOf)
         		.forEach(System.out::println);
-        }catch (IOException e) {
+        } catch (IOException e) {
 			e.printStackTrace();
 		}
         
+        //Devuelve las rutas de un directorio
+        Path rutaList = Paths.get("C:/Users/sjgui/");
+        try (Stream<Path> stream = Files.list(rutaList)) {
+        		stream
+        		.map(String::valueOf)
+        		.sorted()
+        		.forEach(System.out::println);
+        } catch (IOException e) {
+			e.printStackTrace();
+		}
         
+        //Número de líneas de un fichero
+        Path ficheroLineas = Paths.get("C:/Users/sjgui/eclipse-workspace/EjemplosJava/prueba.txt");
+        try (Stream<String> fileStream = Files.lines(ficheroLineas)) {
+            int noOfLines = (int) fileStream.count();
+            System.out.println(noOfLines);
+        } catch (IOException e) {
+			e.printStackTrace();
+		}
+        
+        //Leer un fichero con streams línea a línea, ordenarlo y grabarlo a otro archivo
+        Path ficheroCSV = Paths.get("C:/Users/sjgui/eclipse-workspace/EjemplosJava/prueba.csv");
+        Path ficheroStream = Paths.get("C:/Users/sjgui/eclipse-workspace/EjemplosJava/prueba.txt");
+        try (Stream<String> fileStream = Files.lines(ficheroCSV)) {
+           BufferedWriter bw = Files.newBufferedWriter(ficheroStream, Charset.forName("UTF-8"));
+           List<String> listCSV = fileStream.sorted()
+        		   					.map(s -> s.toUpperCase())
+        		   					.collect(Collectors.toList());
+           
+           //Vamos a ir leyendo el stream ordenado y escribiendo en el BufferedWriter
+           listCSV.stream().forEach(s -> {
+        	   try {
+        		   bw.write(s);
+        		   bw.newLine();
+        	   } catch (IOException e) {
+        		   // TODO Auto-generated catch block
+        		   e.printStackTrace();
+        	   }
+           });
+        	
+        } catch (IOException e) {
+			e.printStackTrace();
+		}
+        
+        //Leer csv y quedarse con los campos
+        try (Stream<String> fileStream = Files.lines(ficheroCSV)) {
+        	List<List<String>> values = fileStream
+        									.map((String line) -> Arrays.asList(line.split(",")))
+        									.collect(Collectors.toList());
+			values.forEach(value -> System.out.println(value));
+
+        } catch (IOException e) {
+			e.printStackTrace();
+		}
 
 	}
+	
 	
 	private static boolean checkFileSize(Path path, long fileSize) {
         boolean result = false;
