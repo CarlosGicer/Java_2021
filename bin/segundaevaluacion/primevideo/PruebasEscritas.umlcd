@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4dInUHUDEeu9CYhHiNWczw">
+  <modelElement href="PruebasEscritas.uml#_5E6ZAHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5seIQHUDEeu9CYhHiNWczw" targetItem="_5szfcHUDEeu9CYhHiNWczw" sourceItem="_5sc6IHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5sk18XUDEeu9CYhHiNWczw" targetItem="_5szfh3UDEeu9CYhHiNWczw" sourceItem="_5sk18HUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5smEEXUDEeu9CYhHiNWczw" targetItem="_5s0GjXUDEeu9CYhHiNWczw" sourceItem="_5smEEHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5snSMHUDEeu9CYhHiNWczw" targetItem="_5s0Gk3UDEeu9CYhHiNWczw" sourceItem="_5smrIHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5sn5QHUDEeu9CYhHiNWczw" targetItem="_5s0GmHUDEeu9CYhHiNWczw" sourceItem="_5snSMXUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5sogUXUDEeu9CYhHiNWczw" targetItem="_5s0GnnUDEeu9CYhHiNWczw" sourceItem="_5sogUHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5spHYXUDEeu9CYhHiNWczw" targetItem="_5s0Go3UDEeu9CYhHiNWczw" sourceItem="_5spHYHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5spucXUDEeu9CYhHiNWczw" targetItem="_5s0GqXUDEeu9CYhHiNWczw" sourceItem="_5spucHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5sqVgXUDEeu9CYhHiNWczw" targetItem="_5s0GrnUDEeu9CYhHiNWczw" sourceItem="_5sqVgHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5sq8kXUDEeu9CYhHiNWczw" targetItem="_5s0GtHUDEeu9CYhHiNWczw" sourceItem="_5sq8kHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5srjoHUDEeu9CYhHiNWczw" targetItem="_5s0GuXUDEeu9CYhHiNWczw" sourceItem="_5sq8knUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5vTZ0HUDEeu9CYhHiNWczw" sourceAnchor="0.0,79.0" targetAnchor="467.0,230.0" superClass="_5szfcHUDEeu9CYhHiNWczw" subClass="_5vYSUHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5KWSoHUDEeu9CYhHiNWczw"/>
+    <bendpoints xmi:id="_qt0iMHUEEeu9CYhHiNWczw" sourceX="-30" targetX="54" targetY="-92"/>
+    <bendpoints xmi:id="_qt0iMXUEEeu9CYhHiNWczw" sourceX="-49" sourceY="92" targetX="35"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5vUA4XUDEeu9CYhHiNWczw" targetItem="_5vYSUHUDEeu9CYhHiNWczw" sourceItem="_5vUA4HUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5vVPAXUDEeu9CYhHiNWczw" targetItem="_5vYSV3UDEeu9CYhHiNWczw" sourceItem="_5vVPAHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5vV2EXUDEeu9CYhHiNWczw" targetItem="_5vYSXXUDEeu9CYhHiNWczw" sourceItem="_5vV2EHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wBykXUDEeu9CYhHiNWczw" targetItem="_5wP1AHUDEeu9CYhHiNWczw" sourceItem="_5wBykHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wDnwXUDEeu9CYhHiNWczw" targetItem="_5wP1IXUDEeu9CYhHiNWczw" sourceItem="_5wDnwHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wEO0HUDEeu9CYhHiNWczw" targetItem="_5wP1J3UDEeu9CYhHiNWczw" sourceItem="_5wDnwnUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wEO0nUDEeu9CYhHiNWczw" targetItem="_5wP1LHUDEeu9CYhHiNWczw" sourceItem="_5wEO0XUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wE14XUDEeu9CYhHiNWczw" targetItem="_5wP1MnUDEeu9CYhHiNWczw" sourceItem="_5wE14HUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wGEAHUDEeu9CYhHiNWczw" targetItem="_5wP1N3UDEeu9CYhHiNWczw" sourceItem="_5wFc8HUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wGrEHUDEeu9CYhHiNWczw" targetItem="_5wP1PXUDEeu9CYhHiNWczw" sourceItem="_5wGEAXUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wGrEnUDEeu9CYhHiNWczw" targetItem="_5wP1QnUDEeu9CYhHiNWczw" sourceItem="_5wGrEXUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wHSIXUDEeu9CYhHiNWczw" targetItem="_5wP1SHUDEeu9CYhHiNWczw" sourceItem="_5wHSIHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wH5MHUDEeu9CYhHiNWczw" targetItem="_5wP1TXUDEeu9CYhHiNWczw" sourceItem="_5wHSInUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wH5MnUDEeu9CYhHiNWczw" targetItem="_5wP1U3UDEeu9CYhHiNWczw" sourceItem="_5wH5MXUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wIgQXUDEeu9CYhHiNWczw" targetItem="_5wP1WHUDEeu9CYhHiNWczw" sourceItem="_5wIgQHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wIgQ3UDEeu9CYhHiNWczw" targetItem="_5wP1XnUDEeu9CYhHiNWczw" sourceItem="_5wIgQnUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wKVcHUDEeu9CYhHiNWczw" targetItem="_5wP1cXUDEeu9CYhHiNWczw" sourceItem="_5wJuYHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wKVcnUDEeu9CYhHiNWczw" targetItem="_5wP1g3UDEeu9CYhHiNWczw" sourceItem="_5wKVcXUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5wtIAHUDEeu9CYhHiNWczw" sourceAnchor="207.0,0.0" targetAnchor="230.0,462.0" target="_5szfcHUDEeu9CYhHiNWczw" source="_5w6jYHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MQXIHUDEeu9CYhHiNWczw"/>
+    <stereotypes xmi:id="_5wyAgXUDEeu9CYhHiNWczw" name="Reference">
+      <modelElement href="PruebasEscritas.uml#_5MRlQHUDEeu9CYhHiNWczw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5wwyYHUDEeu9CYhHiNWczw" text="">
+      <visualProperties xmi:id="_6KtjcHUDEeu9CYhHiNWczw" position="-48.0,-2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5wxZcHUDEeu9CYhHiNWczw" aggregationKind="NONE" name="">
+      <modelElement href="PruebasEscritas.uml#_5MQXIXUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6KsVUHUDEeu9CYhHiNWczw" position="-18.0,-89.0"/>
+      <visibility xmi:id="_5w25AXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w25AHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5wyAgHUDEeu9CYhHiNWczw" aggregationKind="NONE" name="suscriptores" navigable="true">
+      <modelElement href="PruebasEscritas.uml#_5LJj4HUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6KtjcXUDEeu9CYhHiNWczw" position="-96.0,34.0"/>
+      <visibility xmi:id="_5w3gEXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w3gEHUDEeu9CYhHiNWczw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5wu9MHUDEeu9CYhHiNWczw" sourceAnchor="239.0,0.0" targetAnchor="0.0,405.0" target="_5wP1AHUDEeu9CYhHiNWczw" source="_5w6jYHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MRlQXUDEeu9CYhHiNWczw"/>
+    <bendpoints xmi:id="_qt1JQHUEEeu9CYhHiNWczw" sourceX="-1" sourceY="-208" targetX="-909"/>
+    <stereotypes xmi:id="_5wynkXUDEeu9CYhHiNWczw" name="Reference">
+      <modelElement href="PruebasEscritas.uml#_5MTacHUDEeu9CYhHiNWczw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5wyAgnUDEeu9CYhHiNWczw" text="">
+      <visualProperties xmi:id="_6KvYoHUDEeu9CYhHiNWczw" position="434.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5wyAg3UDEeu9CYhHiNWczw" aggregationKind="NONE" name="">
+      <modelElement href="PruebasEscritas.uml#_5MRlQnUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6KuxkHUDEeu9CYhHiNWczw" position="-18.0,-94.0"/>
+      <visibility xmi:id="_5w3gE3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w3gEnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5wynkHUDEeu9CYhHiNWczw" aggregationKind="NONE" name="catalogo" navigable="true">
+      <modelElement href="PruebasEscritas.uml#_5LKK8XUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6KvYoXUDEeu9CYhHiNWczw" position="-140.0,2.0"/>
+      <visibility xmi:id="_5w4HIHUDEeu9CYhHiNWczw" label="-"/>
+      <cardinality xmi:id="_5w3gFHUDEeu9CYhHiNWczw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wwLUXUDEeu9CYhHiNWczw" targetItem="_5w6jYHUDEeu9CYhHiNWczw" sourceItem="_5wwLUHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wzOoHUDEeu9CYhHiNWczw" targetItem="_5w6jcXUDEeu9CYhHiNWczw" sourceItem="_5wynknUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5wz1sXUDEeu9CYhHiNWczw" targetItem="_5w6jfHUDEeu9CYhHiNWczw" sourceItem="_5wz1sHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5xOscHUDEeu9CYhHiNWczw" sourceAnchor="286.0,0.0" targetAnchor="329.0,576.0" superClass="_5wP1AHUDEeu9CYhHiNWczw" subClass="_5xXPUHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5Kp0oXUDEeu9CYhHiNWczw"/>
+    <bendpoints xmi:id="_qt1JQXUEEeu9CYhHiNWczw" sourceY="-30" targetX="69" targetY="31"/>
+    <bendpoints xmi:id="_qt1JQnUEEeu9CYhHiNWczw" sourceX="-69" sourceY="-30" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5xPTgXUDEeu9CYhHiNWczw" targetItem="_5xXPUHUDEeu9CYhHiNWczw" sourceItem="_5xPTgHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5xRIsXUDEeu9CYhHiNWczw" targetItem="_5xXPWHUDEeu9CYhHiNWczw" sourceItem="_5xRIsHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5xSW0XUDEeu9CYhHiNWczw" targetItem="_5xXPanUDEeu9CYhHiNWczw" sourceItem="_5xSW0HUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5xVaIHUDEeu9CYhHiNWczw" sourceAnchor="15.0,208.0" targetAnchor="256.0,0.0" target="_5yROQHUDEeu9CYhHiNWczw" source="_5xXPUHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MBGkHUDEeu9CYhHiNWczw"/>
+    <nameVisual xmi:id="_5xVaIXUDEeu9CYhHiNWczw" text="">
+      <visualProperties xmi:id="_6Kyb8HUDEeu9CYhHiNWczw" position="-13.0,-5.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5xVaInUDEeu9CYhHiNWczw" aggregationKind="NONE" name="serie" navigable="true">
+      <modelElement href="PruebasEscritas.uml#_5LQ4oHUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6Kx04HUDEeu9CYhHiNWczw" position="41.0,1.0"/>
+      <visibility xmi:id="_5xVaI3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xVaJHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5xVaJXUDEeu9CYhHiNWczw" aggregationKind="NONE" name="">
+      <modelElement href="PruebasEscritas.uml#_5MBtoHUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6KzDAHUDEeu9CYhHiNWczw" position="2.0,-58.0"/>
+      <visibility xmi:id="_5xVaJnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xVaJ3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5xWoQHUDEeu9CYhHiNWczw" source="_5xXPUHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MUBgHUDEeu9CYhHiNWczw"/>
+    <stereotypes xmi:id="_5xWoQXUDEeu9CYhHiNWczw" name="Reference">
+      <modelElement href="PruebasEscritas.uml#_5MWdwHUDEeu9CYhHiNWczw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5xWoQnUDEeu9CYhHiNWczw" text=""/>
+    <sourceRole xmi:id="_5xWoQ3UDEeu9CYhHiNWczw" aggregationKind="NONE" name="">
+      <modelElement href="PruebasEscritas.uml#_5MUBgXUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xWoRHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xWoRXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5xWoRnUDEeu9CYhHiNWczw" aggregationKind="NONE" name="temporadas" navigable="true">
+      <modelElement href="PruebasEscritas.uml#_5LMnMHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xWoR3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xWoSHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5xiOcXUDEeu9CYhHiNWczw" targetItem="_5xo8IHUDEeu9CYhHiNWczw" sourceItem="_5xiOcHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5xi1gHUDEeu9CYhHiNWczw" sourceAnchor="348.0,90.0" targetAnchor="0.0,79.0" target="_5xo8IHUDEeu9CYhHiNWczw" source="_5yROQHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L7nAHUDEeu9CYhHiNWczw"/>
+    <nameVisual xmi:id="_5xmf4HUDEeu9CYhHiNWczw" text="">
+      <visualProperties xmi:id="_6K04MHUDEeu9CYhHiNWczw" position="-5.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5xnG8HUDEeu9CYhHiNWczw" aggregationKind="NONE" name="temporada" navigable="true">
+      <modelElement href="PruebasEscritas.uml#_5LCPIXUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6KzqEHUDEeu9CYhHiNWczw" position="6.0,2.0"/>
+      <visibility xmi:id="_5xoVEHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xnuAHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5xnG8XUDEeu9CYhHiNWczw" aggregationKind="NONE" name="">
+      <modelElement href="PruebasEscritas.uml#_5L8OEHUDEeu9CYhHiNWczw"/>
+      <visualProperties xmi:id="_6K04MXUDEeu9CYhHiNWczw" position="-30.0,-57.0"/>
+      <visibility xmi:id="_5xoVEnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xoVEXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5xw38HUDEeu9CYhHiNWczw" sourceAnchor="0.0,79.0" targetAnchor="467.0,230.0" superClass="_5szfcHUDEeu9CYhHiNWczw" subClass="_5x2XgHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5KVEgHUDEeu9CYhHiNWczw"/>
+    <bendpoints xmi:id="_qt0iMnUEEeu9CYhHiNWczw" sourceX="-43" targetX="54" targetY="112"/>
+    <bendpoints xmi:id="_qt0iM3UEEeu9CYhHiNWczw" sourceX="-62" sourceY="-112" targetX="35"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5xxfAXUDEeu9CYhHiNWczw" targetItem="_5x2XgHUDEeu9CYhHiNWczw" sourceItem="_5xxfAHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5xzUMHUDEeu9CYhHiNWczw" targetItem="_5x2Xh3UDEeu9CYhHiNWczw" sourceItem="_5xytIHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5x1JYXUDEeu9CYhHiNWczw" targetItem="_5x2XjXUDEeu9CYhHiNWczw" sourceItem="_5x1JYHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5x9sQHUDEeu9CYhHiNWczw" sourceAnchor="350.0,0.0" targetAnchor="329.0,576.0" superClass="_5wP1AHUDEeu9CYhHiNWczw" subClass="_5yDy4HUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5Ke1gHUDEeu9CYhHiNWczw"/>
+    <bendpoints xmi:id="_qt1JQ3UEEeu9CYhHiNWczw" sourceY="-54" targetX="-596" targetY="31"/>
+    <bendpoints xmi:id="_qt1JRHUEEeu9CYhHiNWczw" sourceX="596" sourceY="-54" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5x-TUXUDEeu9CYhHiNWczw" targetItem="_5yDy4HUDEeu9CYhHiNWczw" sourceItem="_5x-TUHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5x_hcXUDEeu9CYhHiNWczw" targetItem="_5yDy53UDEeu9CYhHiNWczw" sourceItem="_5x_hcHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5yCkwHUDEeu9CYhHiNWczw" targetItem="_5yDy-3UDEeu9CYhHiNWczw" sourceItem="_5yB9sHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5yLHoXUDEeu9CYhHiNWczw" targetItem="_5yROQHUDEeu9CYhHiNWczw" sourceItem="_5yLHoHUDEeu9CYhHiNWczw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5yLusHUDEeu9CYhHiNWczw" source="_5yROQHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MXE0HUDEeu9CYhHiNWczw"/>
+    <stereotypes xmi:id="_5yOyAHUDEeu9CYhHiNWczw" name="Reference">
+      <modelElement href="PruebasEscritas.uml#_5MYS8HUDEeu9CYhHiNWczw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5yOK8HUDEeu9CYhHiNWczw" text=""/>
+    <sourceRole xmi:id="_5yOK8XUDEeu9CYhHiNWczw" aggregationKind="NONE" name="">
+      <modelElement href="PruebasEscritas.uml#_5MXE0XUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yPZEXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yPZEHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5yOK8nUDEeu9CYhHiNWczw" aggregationKind="NONE" name="episodios" navigable="true">
+      <modelElement href="PruebasEscritas.uml#_5LPDcHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yQAIHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yPZEnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5sc6IHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5seIQHUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5szfcHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MCUsHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5sk18HUDEeu9CYhHiNWczw" sourceConnectionVisual="_5sk18XUDEeu9CYhHiNWczw" text="@param dni&#xD;&#xA;&#x9; * @param nombre&#xD;&#xA;&#x9; * @param email&#xD;&#xA;&#x9; * @param precioMensual" item="_5szfh3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MCUsXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5smEEHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5smEEXUDEeu9CYhHiNWczw" text="*" item="_5s0GjXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MCUsnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5smrIHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5snSMHUDEeu9CYhHiNWczw" text="@return the dni" item="_5s0Gk3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MCUs3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5snSMXUDEeu9CYhHiNWczw" sourceConnectionVisual="_5sn5QHUDEeu9CYhHiNWczw" text="@param dni the dni to set" item="_5s0GmHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MCUtHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5sogUHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5sogUXUDEeu9CYhHiNWczw" text="@return the nombre" item="_5s0GnnUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MC7wHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5spHYHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5spHYXUDEeu9CYhHiNWczw" text="@param nombre the nombre to set" item="_5s0Go3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MC7wXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5spucHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5spucXUDEeu9CYhHiNWczw" text="@return the email" item="_5s0GqXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MC7wnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5sqVgHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5sqVgXUDEeu9CYhHiNWczw" text="@param email the email to set" item="_5s0GrnUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MC7w3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5sq8kHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5sq8kXUDEeu9CYhHiNWczw" text="@return the precioMensual" item="_5s0GtHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MC7xHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5sq8knUDEeu9CYhHiNWczw" sourceConnectionVisual="_5srjoHUDEeu9CYhHiNWczw" text="@param precioMensual the precioMensual to set" item="_5s0GuXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5MC7xXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5vUA4HUDEeu9CYhHiNWczw" sourceConnectionVisual="_5vUA4XUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5vYSUHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L6Y4HUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5vVPAHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5vVPAXUDEeu9CYhHiNWczw" text="*" item="_5vYSV3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L6Y4XUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5vV2EHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5vV2EXUDEeu9CYhHiNWczw" text="@param dni&#xD;&#xA;&#x9; * @param nombre&#xD;&#xA;&#x9; * @param email&#xD;&#xA;&#x9; * @param precioMensual" item="_5vYSXXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L6Y4nUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wBykHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wBykXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5wP1AHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L81IHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wDnwHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wDnwXUDEeu9CYhHiNWczw" text="*" item="_5wP1IXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cMHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wDnwnUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wEO0HUDEeu9CYhHiNWczw" text="@return the autoincremento" item="_5wP1J3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cMnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wEO0XUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wEO0nUDEeu9CYhHiNWczw" text="@param autoincremento the autoincremento to set" item="_5wP1LHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cM3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wE14HUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wE14XUDEeu9CYhHiNWczw" text="@return the codigo" item="_5wP1MnUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cNHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wFc8HUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wGEAHUDEeu9CYhHiNWczw" text="@param codigo the codigo to set" item="_5wP1N3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cNXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wGEAXUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wGrEHUDEeu9CYhHiNWczw" text="@return the titulo" item="_5wP1PXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cNnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wGrEXUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wGrEnUDEeu9CYhHiNWczw" text="@param titulo the titulo to set" item="_5wP1QnUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cN3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wHSIHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wHSIXUDEeu9CYhHiNWczw" text="@return the Plus" item="_5wP1SHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DQHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wHSInUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wH5MHUDEeu9CYhHiNWczw" text="@param Plus the esPlus to set" item="_5wP1TXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DQXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wH5MXUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wH5MnUDEeu9CYhHiNWczw" text="@return the precio" item="_5wP1U3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DQnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wIgQHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wIgQXUDEeu9CYhHiNWczw" text="@param precio the precio to set" item="_5wP1WHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DQ3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wIgQnUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wIgQ3UDEeu9CYhHiNWczw" text="@return the genero" item="_5wP1XnUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DRHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wJuYHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wKVcHUDEeu9CYhHiNWczw" text="@param titulo&#xD;&#xA;&#x9; * @param plus&#xD;&#xA;&#x9; * @param precio&#xD;&#xA;&#x9; * @param genero" item="_5wP1cXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L9cMXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wKVcXUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wKVcnUDEeu9CYhHiNWczw" text="@param genero the genero to set" item="_5wP1g3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DRXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wwLUHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wwLUXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5w6jYHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-qUHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wynknUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wzOoHUDEeu9CYhHiNWczw" text="*" item="_5w6jcXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-qUXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5wz1sHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5wz1sXUDEeu9CYhHiNWczw" text="@return the catalogo" item="_5w6jfHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-qUnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5xPTgHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5xPTgXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5xXPUHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-qU3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5xRIsHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5xRIsXUDEeu9CYhHiNWczw" text="*" item="_5xXPWHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-qVXUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5xSW0HUDEeu9CYhHiNWczw" sourceConnectionVisual="_5xSW0XUDEeu9CYhHiNWczw" text="@param titulo&#xD;&#xA;&#x9; * @param plus&#xD;&#xA;&#x9; * @param precio&#xD;&#xA;&#x9; * @param genero" item="_5xXPanUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-qVHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5xiOcHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5xiOcXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5xo8IHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L6Y43UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5xxfAHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5xxfAXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5x2XgHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L5x0HUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5xytIHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5xzUMHUDEeu9CYhHiNWczw" text="*" item="_5x2Xh3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L5x0XUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5x1JYHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5x1JYXUDEeu9CYhHiNWczw" text="@param dni&#xD;&#xA;&#x9; * @param nombre&#xD;&#xA;&#x9; * @param email&#xD;&#xA;&#x9; * @param precioMensual" item="_5x2XjXUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L5x0nUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5x-TUHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5x-TUXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5yDy4HUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DRnUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5x_hcHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5x_hcXUDEeu9CYhHiNWczw" text="*" item="_5yDy53UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DR3UDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5yB9sHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5yCkwHUDEeu9CYhHiNWczw" text="@param titulo&#xD;&#xA;&#x9; * @param plus&#xD;&#xA;&#x9; * @param precio" item="_5yDy-3UDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L-DSHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5yLHoHUDEeu9CYhHiNWczw" sourceConnectionVisual="_5yLHoXUDEeu9CYhHiNWczw" text="@author sjgui&#xD;&#xA; *" item="_5yROQHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5L_RYHUDEeu9CYhHiNWczw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5szfcHUDEeu9CYhHiNWczw" comments="_5sc6IHUDEeu9CYhHiNWczw" targetConnectionVisual="_5seIQHUDEeu9CYhHiNWczw" name="Cliente" abstractClass="true" associationsIn="_5wtIAHUDEeu9CYhHiNWczw" subclassedBy="_5vTZ0HUDEeu9CYhHiNWczw _5xw38HUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5HxfwHUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5szfcXUDEeu9CYhHiNWczw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5szfcnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5szfc3UDEeu9CYhHiNWczw" name="dni">
+      <modelElement href="PruebasEscritas.uml#_5LRfsHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5szfdHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LSt0HUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5szfdXUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5szfdnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5szfd3UDEeu9CYhHiNWczw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5szfeHUDEeu9CYhHiNWczw" name="nombre">
+      <modelElement href="PruebasEscritas.uml#_5LSt0XUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5szfeXUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LTU4HUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5szfenUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5szfe3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5szffHUDEeu9CYhHiNWczw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5szffXUDEeu9CYhHiNWczw" name="email">
+      <modelElement href="PruebasEscritas.uml#_5LT78HUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5szffnUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LT78XUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5szff3UDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5szfgHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5szfgXUDEeu9CYhHiNWczw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5szfgnUDEeu9CYhHiNWczw" defaultValue="0" name="precioMensual">
+      <modelElement href="PruebasEscritas.uml#_5LUjAHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5szfg3UDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LVKEHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5szfhHUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5szfhXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5szfhnUDEeu9CYhHiNWczw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5szfh3UDEeu9CYhHiNWczw" comments="_5sk18HUDEeu9CYhHiNWczw" targetConnectionVisual="_5sk18XUDEeu9CYhHiNWczw" name="Cliente">
+      <modelElement href="PruebasEscritas.uml#_5HzU8HUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5szfiHUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5s0GgHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GgXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0GgnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H0jEHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0Gg3UDEeu9CYhHiNWczw" name="Cliente">
+          <modelElement href="PruebasEscritas.uml#_5HxfwHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5s0GhHUDEeu9CYhHiNWczw" name="dni">
+        <modelElement href="PruebasEscritas.uml#_5Hz8AHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0GhXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0GhnUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5s0Gh3UDEeu9CYhHiNWczw" name="nombre">
+        <modelElement href="PruebasEscritas.uml#_5Hz8AXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0GiHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0GiXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5s0GinUDEeu9CYhHiNWczw" name="email">
+        <modelElement href="PruebasEscritas.uml#_5Hz8AnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0Gi3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0GjHUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5s0GjXUDEeu9CYhHiNWczw" comments="_5smEEHUDEeu9CYhHiNWczw" targetConnectionVisual="_5smEEXUDEeu9CYhHiNWczw" name="Cliente">
+      <modelElement href="PruebasEscritas.uml#_5H0jEXUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5s0GjnUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5s0Gj3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GkHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0GkXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H1KInUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0GknUDEeu9CYhHiNWczw" name="Cliente">
+          <modelElement href="PruebasEscritas.uml#_5HxfwHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0Gk3UDEeu9CYhHiNWczw" comments="_5smrIHUDEeu9CYhHiNWczw" targetConnectionVisual="_5snSMHUDEeu9CYhHiNWczw" name="getDni">
+      <modelElement href="PruebasEscritas.uml#_5H1KI3UDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GlHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GlXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0GlnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H1xMHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0Gl3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0GmHUDEeu9CYhHiNWczw" comments="_5snSMXUDEeu9CYhHiNWczw" targetConnectionVisual="_5sn5QHUDEeu9CYhHiNWczw" name="setDni">
+      <modelElement href="PruebasEscritas.uml#_5H2YQHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GmXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GmnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5s0Gm3UDEeu9CYhHiNWczw" name="dni">
+        <modelElement href="PruebasEscritas.uml#_5H2YQXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0GnHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0GnXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5s0GnnUDEeu9CYhHiNWczw" comments="_5sogUHUDEeu9CYhHiNWczw" targetConnectionVisual="_5sogUXUDEeu9CYhHiNWczw" name="getNombre">
+      <modelElement href="PruebasEscritas.uml#_5H2_UHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0Gn3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GoHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0GoXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H2_UXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0GonUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0Go3UDEeu9CYhHiNWczw" comments="_5spHYHUDEeu9CYhHiNWczw" targetConnectionVisual="_5spHYXUDEeu9CYhHiNWczw" name="setNombre">
+      <modelElement href="PruebasEscritas.uml#_5H3mYHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GpHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GpXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5s0GpnUDEeu9CYhHiNWczw" name="nombre">
+        <modelElement href="PruebasEscritas.uml#_5H3mYXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0Gp3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0GqHUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5s0GqXUDEeu9CYhHiNWczw" comments="_5spucHUDEeu9CYhHiNWczw" targetConnectionVisual="_5spucXUDEeu9CYhHiNWczw" name="getEmail">
+      <modelElement href="PruebasEscritas.uml#_5H4NcHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GqnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0Gq3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0GrHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H40gHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0GrXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0GrnUDEeu9CYhHiNWczw" comments="_5sqVgHUDEeu9CYhHiNWczw" targetConnectionVisual="_5sqVgXUDEeu9CYhHiNWczw" name="setEmail">
+      <modelElement href="PruebasEscritas.uml#_5H5bkHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0Gr3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GsHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5s0GsXUDEeu9CYhHiNWczw" name="email">
+        <modelElement href="PruebasEscritas.uml#_5H5bkXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0GsnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0Gs3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5s0GtHUDEeu9CYhHiNWczw" comments="_5sq8kHUDEeu9CYhHiNWczw" targetConnectionVisual="_5sq8kXUDEeu9CYhHiNWczw" abstractOperation="true" name="getPrecioMensual">
+      <modelElement href="PruebasEscritas.uml#_5H5bknUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GtXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GtnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0Gt3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H6CoHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0GuHUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0GuXUDEeu9CYhHiNWczw" comments="_5sq8knUDEeu9CYhHiNWczw" targetConnectionVisual="_5srjoHUDEeu9CYhHiNWczw" name="setPrecioMensual">
+      <modelElement href="PruebasEscritas.uml#_5H6psHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GunUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0Gu3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5s0GvHUDEeu9CYhHiNWczw" name="precioMensual">
+        <modelElement href="PruebasEscritas.uml#_5H6psXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0GvXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0GvnUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5s0Gv3UDEeu9CYhHiNWczw" name="toString">
+      <modelElement href="PruebasEscritas.uml#_5H6psnUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5s0GwHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5H730HUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5s0GwXUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5H8e4HUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5s0GwnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0Gw3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0GxHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H7QwHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0GxXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0GxnUDEeu9CYhHiNWczw" name="hashCode">
+      <modelElement href="PruebasEscritas.uml#_5H8e4nUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5s0Gx3UDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5H9tAHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5s0GyHUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5H-UEHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5s0GyXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0GynUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0Gy3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H9F8HUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0GzHUDEeu9CYhHiNWczw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0GzXUDEeu9CYhHiNWczw" abstractOperation="true" name="esPro">
+      <modelElement href="PruebasEscritas.uml#_5H-7IHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5s0GznUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0Gz3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0G0HUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5H_iMHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0G0XUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5s0G0nUDEeu9CYhHiNWczw" name="equals">
+      <modelElement href="PruebasEscritas.uml#_5K66YHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5s0G03UDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5K7hcXUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5s0G1HUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5K8IgHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5s0G1XUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5s0G1nUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5s0G13UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5K7hcHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5s0G2HUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5s0G2XUDEeu9CYhHiNWczw" name="obj">
+        <modelElement href="PruebasEscritas.uml#_5K66YXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5s0G2nUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5s0G23UDEeu9CYhHiNWczw" name="Object">
+          <modelElement href="PruebasEscritas.uml#_5KzloXUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5vYSUHUDEeu9CYhHiNWczw" comments="_5vUA4HUDEeu9CYhHiNWczw" targetConnectionVisual="_5vUA4XUDEeu9CYhHiNWczw" name="ClientePrimePro" generalizations="_5vTZ0HUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5GcqEHUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5vYSUXUDEeu9CYhHiNWczw" position="582.0,89.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5vYSUnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5vYSU3UDEeu9CYhHiNWczw" defaultValue="5" name="PRECIO" staticAttribute="true">
+      <modelElement href="PruebasEscritas.uml#_5LAZ8HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5vYSVHUDEeu9CYhHiNWczw" label="-"/>
+      <cardinality xmi:id="_5vYSVXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5vYSVnUDEeu9CYhHiNWczw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5vYSV3UDEeu9CYhHiNWczw" comments="_5vVPAHUDEeu9CYhHiNWczw" targetConnectionVisual="_5vVPAXUDEeu9CYhHiNWczw" name="ClientePrimePro">
+      <modelElement href="PruebasEscritas.uml#_5Gd4MHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5vYSWHUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5vYSWXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5vYSWnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5vYSW3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GefQnUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5vYSXHUDEeu9CYhHiNWczw" name="ClientePrimePro">
+          <modelElement href="PruebasEscritas.uml#_5GcqEHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5vYSXXUDEeu9CYhHiNWczw" comments="_5vV2EHUDEeu9CYhHiNWczw" targetConnectionVisual="_5vV2EXUDEeu9CYhHiNWczw" name="ClientePrimePro">
+      <modelElement href="PruebasEscritas.uml#_5GgUcHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5vYSXnUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5vYSX3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5vYSYHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5vYSYXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5Gg7hHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5vYSYnUDEeu9CYhHiNWczw" name="ClientePrimePro">
+          <modelElement href="PruebasEscritas.uml#_5GcqEHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5vYSY3UDEeu9CYhHiNWczw" name="dni">
+        <modelElement href="PruebasEscritas.uml#_5GgUcXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5vYSZHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5vYSZXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5vYSZnUDEeu9CYhHiNWczw" name="nombre">
+        <modelElement href="PruebasEscritas.uml#_5Gg7gHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5vYSZ3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5vYSaHUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5vYSaXUDEeu9CYhHiNWczw" name="email">
+        <modelElement href="PruebasEscritas.uml#_5Gg7gXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5vYSanUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5vYSa3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5vYSbHUDEeu9CYhHiNWczw" name="esPro">
+      <modelElement href="PruebasEscritas.uml#_5GhikHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5vYSbXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5vYSbnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5vYSb3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GiJoHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5vYScHUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5vYScXUDEeu9CYhHiNWczw" name="getPrecioMensual">
+      <modelElement href="PruebasEscritas.uml#_5GiJoXUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5vYScnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5vYSc3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5vYSdHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GiwsHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5vYSdXUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5x2XgHUDEeu9CYhHiNWczw" comments="_5xxfAHUDEeu9CYhHiNWczw" targetConnectionVisual="_5xxfAXUDEeu9CYhHiNWczw" name="ClientePrime" generalizations="_5xw38HUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5GQc0HUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5x2XgXUDEeu9CYhHiNWczw" position="595.0,293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5x2XgnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5x2Xg3UDEeu9CYhHiNWczw" defaultValue="3" name="PRECIO" staticAttribute="true">
+      <modelElement href="PruebasEscritas.uml#_5K_y4HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5x2XhHUDEeu9CYhHiNWczw" label="-"/>
+      <cardinality xmi:id="_5x2XhXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5x2XhnUDEeu9CYhHiNWczw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5x2Xh3UDEeu9CYhHiNWczw" comments="_5xytIHUDEeu9CYhHiNWczw" targetConnectionVisual="_5xzUMHUDEeu9CYhHiNWczw" name="ClientePrime">
+      <modelElement href="PruebasEscritas.uml#_5GS5EHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5x2XiHUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5x2XiXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5x2XinUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5x2Xi3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GTgIXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5x2XjHUDEeu9CYhHiNWczw" name="ClientePrime">
+          <modelElement href="PruebasEscritas.uml#_5GQc0HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5x2XjXUDEeu9CYhHiNWczw" comments="_5x1JYHUDEeu9CYhHiNWczw" targetConnectionVisual="_5x1JYXUDEeu9CYhHiNWczw" name="ClientePrime">
+      <modelElement href="PruebasEscritas.uml#_5GV8YHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5x2XjnUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5x2Xj3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5x2XkHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5x2XkXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GXKgnUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5x2XknUDEeu9CYhHiNWczw" name="ClientePrime">
+          <modelElement href="PruebasEscritas.uml#_5GQc0HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5x2Xk3UDEeu9CYhHiNWczw" name="dni">
+        <modelElement href="PruebasEscritas.uml#_5GWjcHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5x2XlHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5x2XlXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5x2XlnUDEeu9CYhHiNWczw" name="nombre">
+        <modelElement href="PruebasEscritas.uml#_5GWjcXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5x2Xl3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5x2XmHUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5x2XmXUDEeu9CYhHiNWczw" name="email">
+        <modelElement href="PruebasEscritas.uml#_5GWjcnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5x2XmnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5x2Xm3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5x2XnHUDEeu9CYhHiNWczw" name="esPro">
+      <modelElement href="PruebasEscritas.uml#_5GYYoHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5x2XnXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5x2XnnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5x2Xn3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GY_sHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5x2XoHUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5x2XoXUDEeu9CYhHiNWczw" name="getPrecioMensual">
+      <modelElement href="PruebasEscritas.uml#_5GY_sXUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5x2XonUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5x2Xo3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5x2XpHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GZmwHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5x2XpXUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_5v0-QHUDEeu9CYhHiNWczw" name="Genero">
+    <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5v0-QXUDEeu9CYhHiNWczw" position="430.0,947.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5v0-QnUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+      <modelElement href="PruebasEscritas.uml#_5GwzIHUDEeu9CYhHiNWczw"/>
+    </stereotypes>
+    <visibility xmi:id="_5v0-Q3UDEeu9CYhHiNWczw" label="+"/>
+    <literals xmi:id="_5v0-RHUDEeu9CYhHiNWczw" name="THRILLER">
+      <modelElement href="PruebasEscritas.uml#_5GwzIXUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-RXUDEeu9CYhHiNWczw" name="ACCION">
+      <modelElement href="PruebasEscritas.uml#_5GxaMHUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-RnUDEeu9CYhHiNWczw" name="AVENTURAS">
+      <modelElement href="PruebasEscritas.uml#_5GyBQHUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-R3UDEeu9CYhHiNWczw" name="TERROR">
+      <modelElement href="PruebasEscritas.uml#_5GyBQXUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-SHUDEeu9CYhHiNWczw" name="ROMANTICO">
+      <modelElement href="PruebasEscritas.uml#_5GyBQnUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-SXUDEeu9CYhHiNWczw" name="SCIFI">
+      <modelElement href="PruebasEscritas.uml#_5GyoUHUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-SnUDEeu9CYhHiNWczw" name="DRAMA">
+      <modelElement href="PruebasEscritas.uml#_5GyoUXUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-S3UDEeu9CYhHiNWczw" name="HISTORICO">
+      <modelElement href="PruebasEscritas.uml#_5GzPYHUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-THUDEeu9CYhHiNWczw" name="INFANTIL">
+      <modelElement href="PruebasEscritas.uml#_5GzPYXUDEeu9CYhHiNWczw"/>
+    </literals>
+    <literals xmi:id="_5v0-TXUDEeu9CYhHiNWczw" name="COMEDIA">
+      <modelElement href="PruebasEscritas.uml#_5GzPYnUDEeu9CYhHiNWczw"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5yROQHUDEeu9CYhHiNWczw" comments="_5yLHoHUDEeu9CYhHiNWczw" targetConnectionVisual="_5yLHoXUDEeu9CYhHiNWczw" name="Temporada" associationsIn="_5xVaIHUDEeu9CYhHiNWczw" associationsOut="_5xi1gHUDEeu9CYhHiNWczw _5yLusHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5Ho84HUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5yROQXUDEeu9CYhHiNWczw" position="1072.0,1006.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5yROQnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5yROQ3UDEeu9CYhHiNWczw" name="episodios">
+      <modelElement href="PruebasEscritas.uml#_5LPDcHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5yRORHUDEeu9CYhHiNWczw" name="Generics">
+        <modelElement href="PruebasEscritas.uml#_5LQRkHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5yRORXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yRORnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5yROR3UDEeu9CYhHiNWczw" name="ArrayList">
+        <modelElement href="PruebasEscritas.uml#_5KgDoHUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5yROSHUDEeu9CYhHiNWczw" name="numero">
+      <modelElement href="PruebasEscritas.uml#_5LQRkXUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yROSXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yROSnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5yROS3UDEeu9CYhHiNWczw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5yROTHUDEeu9CYhHiNWczw" name="serie">
+      <modelElement href="PruebasEscritas.uml#_5LQ4oHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yROTXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yROTnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5yROT3UDEeu9CYhHiNWczw" name="Serie">
+        <modelElement href="PruebasEscritas.uml#_5Hfy8HUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5yROUHUDEeu9CYhHiNWczw" name="Temporada">
+      <modelElement href="PruebasEscritas.uml#_5HqyEHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5yROUXUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5yROUnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yROU3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yROVHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HrZIXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yROVXUDEeu9CYhHiNWczw" name="Temporada">
+          <modelElement href="PruebasEscritas.uml#_5Ho84HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5yROVnUDEeu9CYhHiNWczw" name="Temporada">
+      <modelElement href="PruebasEscritas.uml#_5HsAMHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5yROV3UDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5yROWHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yROWXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yROWnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HsANHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yROW3UDEeu9CYhHiNWczw" name="Temporada">
+          <modelElement href="PruebasEscritas.uml#_5Ho84HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5yROXHUDEeu9CYhHiNWczw" name="numero">
+        <modelElement href="PruebasEscritas.uml#_5HsAMXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yROXXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yROXnUDEeu9CYhHiNWczw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5yROX3UDEeu9CYhHiNWczw" name="toString">
+      <modelElement href="PruebasEscritas.uml#_5HtOUHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5yROYHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5Ht1YHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5yROYXUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5HuccHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5yROYnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yROY3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yROZHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HtOUXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yROZXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5yROZnUDEeu9CYhHiNWczw" name="addEpisodio">
+      <modelElement href="PruebasEscritas.uml#_5Krp0HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yROZ3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yROaHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5yROaXUDEeu9CYhHiNWczw" name="episodio">
+        <modelElement href="PruebasEscritas.uml#_5Krp0XUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yROanUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yROa3UDEeu9CYhHiNWczw" name="Episodio">
+          <modelElement href="PruebasEscritas.uml#_5Gkl4HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5yRObHUDEeu9CYhHiNWczw" name="delEpisodio">
+      <modelElement href="PruebasEscritas.uml#_5KsQ4HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yRObXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yRObnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yROb3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5Ks38HUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yROcHUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5yROcXUDEeu9CYhHiNWczw" name="episodio">
+        <modelElement href="PruebasEscritas.uml#_5KsQ4XUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yROcnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yROc3UDEeu9CYhHiNWczw" name="Episodio">
+          <modelElement href="PruebasEscritas.uml#_5Gkl4HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5w6jYHUDEeu9CYhHiNWczw" comments="_5wwLUHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wwLUXUDEeu9CYhHiNWczw" name="PrimeVideo" associationsOut="_5wtIAHUDEeu9CYhHiNWczw _5wu9MHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5HWB8HUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5w6jYXUDEeu9CYhHiNWczw" position="53.0,713.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5w6jYnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5w6jY3UDEeu9CYhHiNWczw" name="suscriptores">
+      <modelElement href="PruebasEscritas.uml#_5LJj4HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5w6jZHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jZXUDEeu9CYhHiNWczw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_5w6jZnUDEeu9CYhHiNWczw" name="Cliente">
+        <modelElement href="PruebasEscritas.uml#_5HxfwHUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5w6jZ3UDEeu9CYhHiNWczw" name="catalogo">
+      <modelElement href="PruebasEscritas.uml#_5LKK8XUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5w6jaHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LLZEHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5w6jaXUDEeu9CYhHiNWczw" label="-"/>
+      <cardinality xmi:id="_5w6janUDEeu9CYhHiNWczw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_5w6ja3UDEeu9CYhHiNWczw" name="Multimedia">
+        <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5w6jbHUDEeu9CYhHiNWczw" name="ganancias">
+      <modelElement href="PruebasEscritas.uml#_5LLZEXUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5w6jbXUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LMAIHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5w6jbnUDEeu9CYhHiNWczw" label="-"/>
+      <cardinality xmi:id="_5w6jb3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5w6jcHUDEeu9CYhHiNWczw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5w6jcXUDEeu9CYhHiNWczw" comments="_5wynknUDEeu9CYhHiNWczw" targetConnectionVisual="_5wzOoHUDEeu9CYhHiNWczw" name="PrimeVideo">
+      <modelElement href="PruebasEscritas.uml#_5HZFQHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5w6jcnUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5w6jc3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jdHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5w6jdXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HZFQ3UDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5w6jdnUDEeu9CYhHiNWczw" name="PrimeVideo">
+          <modelElement href="PruebasEscritas.uml#_5HWB8HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5w6jd3UDEeu9CYhHiNWczw" name="getGanancias">
+      <modelElement href="PruebasEscritas.uml#_5HaTYHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5w6jeHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jeXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5w6jenUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HaTYXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5w6je3UDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5w6jfHUDEeu9CYhHiNWczw" comments="_5wz1sHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wz1sXUDEeu9CYhHiNWczw" name="getCatalogo">
+      <modelElement href="PruebasEscritas.uml#_5Ha6cHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5w6jfXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jfnUDEeu9CYhHiNWczw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5w6jf3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5Ha6cXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5w6jgHUDEeu9CYhHiNWczw" name="Multimedia">
+          <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5w6jgXUDEeu9CYhHiNWczw" name="addSuscriptor">
+      <modelElement href="PruebasEscritas.uml#_5KkVEHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5w6jgnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jg3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5w6jhHUDEeu9CYhHiNWczw" name="cliente">
+        <modelElement href="PruebasEscritas.uml#_5KkVEXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5w6jhXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5w6jhnUDEeu9CYhHiNWczw" name="Cliente">
+          <modelElement href="PruebasEscritas.uml#_5HxfwHUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5w6jh3UDEeu9CYhHiNWczw" name="addMultimedia">
+      <modelElement href="PruebasEscritas.uml#_5Kk8IHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5w6jiHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jiXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5w6jinUDEeu9CYhHiNWczw" name="multimedia">
+        <modelElement href="PruebasEscritas.uml#_5Kk8IXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5w6ji3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5w6jjHUDEeu9CYhHiNWczw" name="Multimedia">
+          <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5w6jjXUDEeu9CYhHiNWczw" name="ver">
+      <modelElement href="PruebasEscritas.uml#_5KljMHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5w6jjnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5w6jj3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5w6jkHUDEeu9CYhHiNWczw" name="m">
+        <modelElement href="PruebasEscritas.uml#_5KljMXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5w6jkXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5w6jknUDEeu9CYhHiNWczw" name="Multimedia">
+          <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5w6jk3UDEeu9CYhHiNWczw" name="c">
+        <modelElement href="PruebasEscritas.uml#_5KljMnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5w6jlHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5w6jlXUDEeu9CYhHiNWczw" name="Cliente">
+          <modelElement href="PruebasEscritas.uml#_5HxfwHUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5xLpIHUDEeu9CYhHiNWczw" name="Test">
+    <modelElement href="PruebasEscritas.uml#_5GGEwHUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5xLpIXUDEeu9CYhHiNWczw" position="109.0,969.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5xLpInUDEeu9CYhHiNWczw" label="+"/>
+    <operations xmi:id="_5xLpI3UDEeu9CYhHiNWczw" name="main" staticOperation="true">
+      <modelElement href="PruebasEscritas.uml#_5GNZgHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xLpJHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xLpJXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5xLpJnUDEeu9CYhHiNWczw" name="args">
+        <modelElement href="PruebasEscritas.uml#_5GOAkHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xLpJ3UDEeu9CYhHiNWczw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_5xLpKHUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5wP1AHUDEeu9CYhHiNWczw" comments="_5wBykHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wBykXUDEeu9CYhHiNWczw" name="Multimedia" associationsIn="_5wu9MHUDEeu9CYhHiNWczw" subclassedBy="_5xOscHUDEeu9CYhHiNWczw _5x9sQHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5wP1AXUDEeu9CYhHiNWczw" position="1201.0,99.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5wP1AnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5wP1A3UDEeu9CYhHiNWczw" defaultValue="1" name="autoincremento" staticAttribute="true">
+      <modelElement href="PruebasEscritas.uml#_5LC2MHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1BHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LEEUHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1BXUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5wP1BnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5wP1B3UDEeu9CYhHiNWczw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5wP1CHUDEeu9CYhHiNWczw" name="codigo">
+      <modelElement href="PruebasEscritas.uml#_5LEEUXUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1CXUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LErYHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1CnUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5wP1C3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5wP1DHUDEeu9CYhHiNWczw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5wP1DXUDEeu9CYhHiNWczw" name="titulo">
+      <modelElement href="PruebasEscritas.uml#_5LFScHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1DnUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LF5gHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1D3UDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5wP1EHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5wP1EXUDEeu9CYhHiNWczw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5wP1EnUDEeu9CYhHiNWczw" name="plus">
+      <modelElement href="PruebasEscritas.uml#_5LF5gXUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1E3UDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LGgkHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1FHUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5wP1FXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5wP1FnUDEeu9CYhHiNWczw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5wP1F3UDEeu9CYhHiNWczw" name="precio">
+      <modelElement href="PruebasEscritas.uml#_5LGgkXUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1GHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LHHoHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1GXUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5wP1GnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5wP1G3UDEeu9CYhHiNWczw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5wP1HHUDEeu9CYhHiNWczw" name="genero">
+      <modelElement href="PruebasEscritas.uml#_5LHHoXUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1HXUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5LHusHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1HnUDEeu9CYhHiNWczw" label="#"/>
+      <cardinality xmi:id="_5wP1H3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5wP1IHUDEeu9CYhHiNWczw" name="Genero">
+        <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5wP1IXUDEeu9CYhHiNWczw" comments="_5wDnwHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wDnwXUDEeu9CYhHiNWczw" name="Multimedia">
+      <modelElement href="PruebasEscritas.uml#_5G1roHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5wP1InUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5wP1I3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1JHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1JXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5G2SsnUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1JnUDEeu9CYhHiNWczw" name="Multimedia">
+          <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1J3UDEeu9CYhHiNWczw" comments="_5wDnwnUDEeu9CYhHiNWczw" targetConnectionVisual="_5wEO0HUDEeu9CYhHiNWczw" name="getAutoincremento" staticOperation="true">
+      <modelElement href="PruebasEscritas.uml#_5G3g0HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1KHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1KXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1KnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5G5WAHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1K3UDEeu9CYhHiNWczw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1LHUDEeu9CYhHiNWczw" comments="_5wEO0XUDEeu9CYhHiNWczw" targetConnectionVisual="_5wEO0nUDEeu9CYhHiNWczw" name="setAutoincremento" staticOperation="true">
+      <modelElement href="PruebasEscritas.uml#_5G59EHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1LXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1LnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5wP1L3UDEeu9CYhHiNWczw" name="autoincremento">
+        <modelElement href="PruebasEscritas.uml#_5G6kIHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1MHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1MXUDEeu9CYhHiNWczw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wP1MnUDEeu9CYhHiNWczw" comments="_5wE14HUDEeu9CYhHiNWczw" targetConnectionVisual="_5wE14XUDEeu9CYhHiNWczw" name="getCodigo">
+      <modelElement href="PruebasEscritas.uml#_5G7LMHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1M3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1NHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1NXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5G7LMXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1NnUDEeu9CYhHiNWczw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1N3UDEeu9CYhHiNWczw" comments="_5wFc8HUDEeu9CYhHiNWczw" targetConnectionVisual="_5wGEAHUDEeu9CYhHiNWczw" name="setCodigo">
+      <modelElement href="PruebasEscritas.uml#_5G7yQHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1OHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1OXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5wP1OnUDEeu9CYhHiNWczw" name="codigo">
+        <modelElement href="PruebasEscritas.uml#_5G7yQXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1O3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1PHUDEeu9CYhHiNWczw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wP1PXUDEeu9CYhHiNWczw" comments="_5wGEAXUDEeu9CYhHiNWczw" targetConnectionVisual="_5wGrEHUDEeu9CYhHiNWczw" name="getTitulo">
+      <modelElement href="PruebasEscritas.uml#_5G8ZUHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1PnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1P3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1QHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5G9AYHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1QXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1QnUDEeu9CYhHiNWczw" comments="_5wGrEXUDEeu9CYhHiNWczw" targetConnectionVisual="_5wGrEnUDEeu9CYhHiNWczw" name="setTitulo">
+      <modelElement href="PruebasEscritas.uml#_5G9ncHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1Q3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1RHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5wP1RXUDEeu9CYhHiNWczw" name="titulo">
+        <modelElement href="PruebasEscritas.uml#_5G9ncXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1RnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1R3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wP1SHUDEeu9CYhHiNWczw" comments="_5wHSIHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wHSIXUDEeu9CYhHiNWczw" name="isPlus">
+      <modelElement href="PruebasEscritas.uml#_5G-OgHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1SXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1SnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1S3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5G-OgXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1THUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1TXUDEeu9CYhHiNWczw" comments="_5wHSInUDEeu9CYhHiNWczw" targetConnectionVisual="_5wH5MHUDEeu9CYhHiNWczw" name="setPlus">
+      <modelElement href="PruebasEscritas.uml#_5G-1kHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1TnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1T3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5wP1UHUDEeu9CYhHiNWczw" name="plus">
+        <modelElement href="PruebasEscritas.uml#_5G-1kXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1UXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1UnUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wP1U3UDEeu9CYhHiNWczw" comments="_5wH5MXUDEeu9CYhHiNWczw" targetConnectionVisual="_5wH5MnUDEeu9CYhHiNWczw" name="getPrecio">
+      <modelElement href="PruebasEscritas.uml#_5G_coHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1VHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1VXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1VnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HADsHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1V3UDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1WHUDEeu9CYhHiNWczw" comments="_5wIgQHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wIgQXUDEeu9CYhHiNWczw" name="setPrecio">
+      <modelElement href="PruebasEscritas.uml#_5HAqwHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1WXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1WnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5wP1W3UDEeu9CYhHiNWczw" name="precio">
+        <modelElement href="PruebasEscritas.uml#_5HAqwXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1XHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1XXUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wP1XnUDEeu9CYhHiNWczw" comments="_5wIgQnUDEeu9CYhHiNWczw" targetConnectionVisual="_5wIgQ3UDEeu9CYhHiNWczw" name="getGenero">
+      <modelElement href="PruebasEscritas.uml#_5HAqwnUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wP1X3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1YHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1YXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5KakEHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1YnUDEeu9CYhHiNWczw" name="Genero">
+          <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1Y3UDEeu9CYhHiNWczw" name="toString">
+      <modelElement href="PruebasEscritas.uml#_5HDHAHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1ZHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5HEVIHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5wP1ZXUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5HE8MHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1ZnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1Z3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1aHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HDuEHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1aXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1anUDEeu9CYhHiNWczw" name="hashCode">
+      <modelElement href="PruebasEscritas.uml#_5HFjQHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wP1a3UDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5HGxYHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5wP1bHUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5HHYcHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wP1bXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1bnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1b3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HGKUHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1cHUDEeu9CYhHiNWczw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5wP1cXUDEeu9CYhHiNWczw" comments="_5wJuYHUDEeu9CYhHiNWczw" targetConnectionVisual="_5wKVcHUDEeu9CYhHiNWczw" name="Multimedia">
+      <modelElement href="PruebasEscritas.uml#_5KYu4HUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5wP1cnUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5wP1c3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wP1dHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wP1dXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5KZ9A3UDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wP1dnUDEeu9CYhHiNWczw" name="Multimedia">
+          <modelElement href="PruebasEscritas.uml#_5Gz2cHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5wP1d3UDEeu9CYhHiNWczw" name="titulo">
+        <modelElement href="PruebasEscritas.uml#_5KZV8HUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1eHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1eXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5wP1enUDEeu9CYhHiNWczw" name="plus">
+        <modelElement href="PruebasEscritas.uml#_5KZV8XUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1e3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1fHUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5wP1fXUDEeu9CYhHiNWczw" name="precio">
+        <modelElement href="PruebasEscritas.uml#_5KZV8nUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1fnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1f3UDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5wP1gHUDEeu9CYhHiNWczw" name="genero">
+        <modelElement href="PruebasEscritas.uml#_5KZ9AHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wP1gXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wP1gnUDEeu9CYhHiNWczw" name="Genero">
+          <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wP1g3UDEeu9CYhHiNWczw" comments="_5wKVcXUDEeu9CYhHiNWczw" targetConnectionVisual="_5wKVcnUDEeu9CYhHiNWczw" name="setGenero">
+      <modelElement href="PruebasEscritas.uml#_5KbLIHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5wQcEHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wQcEXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5wQcEnUDEeu9CYhHiNWczw" name="genero">
+        <modelElement href="PruebasEscritas.uml#_5KbLIXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wQcE3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wQcFHUDEeu9CYhHiNWczw" name="Genero">
+          <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5wQcFXUDEeu9CYhHiNWczw" name="equals">
+      <modelElement href="PruebasEscritas.uml#_5K1a0HUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5wQcFnUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5K2B4HUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5wQcF3UDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5K2o8HUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5wQcGHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5wQcGXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5wQcGnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5K1a0nUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5wQcG3UDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5wQcHHUDEeu9CYhHiNWczw" name="obj">
+        <modelElement href="PruebasEscritas.uml#_5K1a0XUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5wQcHXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5wQcHnUDEeu9CYhHiNWczw" name="Object">
+          <modelElement href="PruebasEscritas.uml#_5KzloXUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5xXPUHUDEeu9CYhHiNWczw" comments="_5xPTgHUDEeu9CYhHiNWczw" targetConnectionVisual="_5xPTgXUDEeu9CYhHiNWczw" name="Serie" associationsOut="_5xVaIHUDEeu9CYhHiNWczw _5xWoQHUDEeu9CYhHiNWczw" generalizations="_5xOscHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5Hfy8HUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5xXPUXUDEeu9CYhHiNWczw" position="1313.0,736.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5xXPUnUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5xXPU3UDEeu9CYhHiNWczw" name="temporadas">
+      <modelElement href="PruebasEscritas.uml#_5LMnMHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5xXPVHUDEeu9CYhHiNWczw" name="Generics">
+        <modelElement href="PruebasEscritas.uml#_5LNOQHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5xXPVXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPVnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5xXPV3UDEeu9CYhHiNWczw" name="ArrayList">
+        <modelElement href="PruebasEscritas.uml#_5KgDoHUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5xXPWHUDEeu9CYhHiNWczw" comments="_5xRIsHUDEeu9CYhHiNWczw" targetConnectionVisual="_5xRIsXUDEeu9CYhHiNWczw" name="Serie">
+      <modelElement href="PruebasEscritas.uml#_5HiPMHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5xXPWXUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5xXPWnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPW3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xXPXHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HiPM3UDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xXPXXUDEeu9CYhHiNWczw" name="Serie">
+          <modelElement href="PruebasEscritas.uml#_5Hfy8HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5xXPXnUDEeu9CYhHiNWczw" name="getNumeroTemporadas">
+      <modelElement href="PruebasEscritas.uml#_5Hi2QHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xXPX3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPYHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xXPYXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5Hi2QXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xXPYnUDEeu9CYhHiNWczw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5xXPY3UDEeu9CYhHiNWczw" name="toString">
+      <modelElement href="PruebasEscritas.uml#_5HkEYHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5xXPZHUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5HkrcHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5xXPZXUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5HlSgHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5xXPZnUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPZ3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xXPaHUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HkEYXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xXPaXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5xXPanUDEeu9CYhHiNWczw" comments="_5xSW0HUDEeu9CYhHiNWczw" targetConnectionVisual="_5xSW0XUDEeu9CYhHiNWczw" name="Serie">
+      <modelElement href="PruebasEscritas.uml#_5KnYYHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5xXPa3UDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5xXPbHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPbXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xXPbnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5Kn_dnUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xXPb3UDEeu9CYhHiNWczw" name="Serie">
+          <modelElement href="PruebasEscritas.uml#_5Hfy8HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5xXPcHUDEeu9CYhHiNWczw" name="titulo">
+        <modelElement href="PruebasEscritas.uml#_5Kn_cHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xXPcXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xXPcnUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5xXPc3UDEeu9CYhHiNWczw" name="plus">
+        <modelElement href="PruebasEscritas.uml#_5Kn_cXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xXPdHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xXPdXUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5xXPdnUDEeu9CYhHiNWczw" name="precio">
+        <modelElement href="PruebasEscritas.uml#_5Kn_cnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xXPd3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xXPeHUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5xXPeXUDEeu9CYhHiNWczw" name="genero">
+        <modelElement href="PruebasEscritas.uml#_5Kn_c3UDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xXPenUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xXPe3UDEeu9CYhHiNWczw" name="Genero">
+          <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5xXPfHUDEeu9CYhHiNWczw" name="addTemporada">
+      <modelElement href="PruebasEscritas.uml#_5KomgHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xXPfXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPfnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5xXPf3UDEeu9CYhHiNWczw" name="temporada">
+        <modelElement href="PruebasEscritas.uml#_5KomgXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xXPgHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xXPgXUDEeu9CYhHiNWczw" name="Temporada">
+          <modelElement href="PruebasEscritas.uml#_5Ho84HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5xXPgnUDEeu9CYhHiNWczw" name="delTemporada">
+      <modelElement href="PruebasEscritas.uml#_5KpNkHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xXPg3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xXPhHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xXPhXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5Kp0oHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xXPhnUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5xXPh3UDEeu9CYhHiNWczw" name="temporada">
+        <modelElement href="PruebasEscritas.uml#_5KpNkXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xXPiHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xXPiXUDEeu9CYhHiNWczw" name="Temporada">
+          <modelElement href="PruebasEscritas.uml#_5Ho84HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5xo8IHUDEeu9CYhHiNWczw" comments="_5xiOcHUDEeu9CYhHiNWczw" targetConnectionVisual="_5xiOcXUDEeu9CYhHiNWczw" name="Episodio" associationsIn="_5xi1gHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5Gkl4HUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5xo8IXUDEeu9CYhHiNWczw" position="1529.0,1017.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5xo8InUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5xo8I3UDEeu9CYhHiNWczw" name="titulo">
+      <modelElement href="PruebasEscritas.uml#_5LBoEHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xo8JHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xo8JXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5xo8JnUDEeu9CYhHiNWczw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5xo8J3UDEeu9CYhHiNWczw" name="duracion">
+      <modelElement href="PruebasEscritas.uml#_5LCPIHUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xo8KHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xo8KXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5xo8KnUDEeu9CYhHiNWczw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5xo8K3UDEeu9CYhHiNWczw" name="temporada">
+      <modelElement href="PruebasEscritas.uml#_5LCPIXUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5xo8LHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xo8LXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5xo8LnUDEeu9CYhHiNWczw" name="Temporada">
+        <modelElement href="PruebasEscritas.uml#_5Ho84HUDEeu9CYhHiNWczw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5xo8L3UDEeu9CYhHiNWczw" name="Episodio">
+      <modelElement href="PruebasEscritas.uml#_5GnCIHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5xo8MHUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5xo8MXUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xo8MnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xo8M3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GnpMnUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xo8NHUDEeu9CYhHiNWczw" name="Episodio">
+          <modelElement href="PruebasEscritas.uml#_5Gkl4HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5xo8NXUDEeu9CYhHiNWczw" name="Episodio">
+      <modelElement href="PruebasEscritas.uml#_5Go3UHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5xo8NnUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5xo8N3UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xo8OHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xo8OXUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GpeYnUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xo8OnUDEeu9CYhHiNWczw" name="Episodio">
+          <modelElement href="PruebasEscritas.uml#_5Gkl4HUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5xo8O3UDEeu9CYhHiNWczw" name="titulo">
+        <modelElement href="PruebasEscritas.uml#_5Go3UXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xo8PHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xo8PXUDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5xo8PnUDEeu9CYhHiNWczw" name="duracion">
+        <modelElement href="PruebasEscritas.uml#_5Go3UnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5xo8P3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5xo8QHUDEeu9CYhHiNWczw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5xo8QXUDEeu9CYhHiNWczw" name="toString">
+      <modelElement href="PruebasEscritas.uml#_5GqFcHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5xo8QnUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5GqsgXUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5xo8Q3UDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5Gr6oHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5xo8RHUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5xo8RXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5xo8RnUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5GqsgHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5xo8R3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5yDy4HUDEeu9CYhHiNWczw" comments="_5x-TUHUDEeu9CYhHiNWczw" targetConnectionVisual="_5x-TUXUDEeu9CYhHiNWczw" name="Pelicula" generalizations="_5x9sQHUDEeu9CYhHiNWczw">
+    <modelElement href="PruebasEscritas.uml#_5HNfEHUDEeu9CYhHiNWczw"/>
+    <visualProperties xmi:id="_5yDy4XUDEeu9CYhHiNWczw" position="584.0,760.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5yDy4nUDEeu9CYhHiNWczw" label="+"/>
+    <attributes xmi:id="_5yDy43UDEeu9CYhHiNWczw" name="duracion">
+      <modelElement href="PruebasEscritas.uml#_5LI80HUDEeu9CYhHiNWczw"/>
+      <visibility xmi:id="_5yDy5HUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yDy5XUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <type xmi:id="_5yDy5nUDEeu9CYhHiNWczw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5yDy53UDEeu9CYhHiNWczw" comments="_5x_hcHUDEeu9CYhHiNWczw" targetConnectionVisual="_5x_hcXUDEeu9CYhHiNWczw" name="Pelicula">
+      <modelElement href="PruebasEscritas.uml#_5HOtMHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5yDy6HUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5yDy6XUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yDy6nUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yDy63UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HPUQHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yDy7HUDEeu9CYhHiNWczw" name="Pelicula">
+          <modelElement href="PruebasEscritas.uml#_5HNfEHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5yDy7XUDEeu9CYhHiNWczw" name="toString">
+      <modelElement href="PruebasEscritas.uml#_5HQiYHUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5yDy7nUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5HRJcXUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5yDy73UDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5HRwgHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5yDy8HUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yDy8XUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yDy8nUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HRJcHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yDy83UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5yDy9HUDEeu9CYhHiNWczw" name="getPrecio">
+      <modelElement href="PruebasEscritas.uml#_5HRwgnUDEeu9CYhHiNWczw"/>
+      <stereotypes xmi:id="_5yDy9XUDEeu9CYhHiNWczw" name="LegacyStyledElement">
+        <modelElement href="PruebasEscritas.uml#_5HS-oHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5yDy9nUDEeu9CYhHiNWczw" name="Annotations">
+        <modelElement href="PruebasEscritas.uml#_5HTlsHUDEeu9CYhHiNWczw"/>
+      </stereotypes>
+      <visibility xmi:id="_5yDy93UDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yDy-HUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yDy-XUDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5HSXkHUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yDy-nUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5yDy-3UDEeu9CYhHiNWczw" comments="_5yB9sHUDEeu9CYhHiNWczw" targetConnectionVisual="_5yCkwHUDEeu9CYhHiNWczw" name="Pelicula">
+      <modelElement href="PruebasEscritas.uml#_5KdnYHUDEeu9CYhHiNWczw"/>
+      <keywords xmi:id="_5yDy_HUDEeu9CYhHiNWczw" keyword="create"/>
+      <visibility xmi:id="_5yDy_XUDEeu9CYhHiNWczw" label="+"/>
+      <cardinality xmi:id="_5yDy_nUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5yDy_3UDEeu9CYhHiNWczw">
+        <modelElement href="PruebasEscritas.uml#_5KeOdXUDEeu9CYhHiNWczw"/>
+        <type xmi:id="_5yDzAHUDEeu9CYhHiNWczw" name="Pelicula">
+          <modelElement href="PruebasEscritas.uml#_5HNfEHUDEeu9CYhHiNWczw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5yDzAXUDEeu9CYhHiNWczw" name="titulo">
+        <modelElement href="PruebasEscritas.uml#_5KdnYXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yDzAnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yDzA3UDEeu9CYhHiNWczw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5yDzBHUDEeu9CYhHiNWczw" name="plus">
+        <modelElement href="PruebasEscritas.uml#_5KdnYnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yDzBXUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yDzBnUDEeu9CYhHiNWczw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5yDzB3UDEeu9CYhHiNWczw" name="precio">
+        <modelElement href="PruebasEscritas.uml#_5KeOcHUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yDzCHUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yDzCXUDEeu9CYhHiNWczw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5yDzCnUDEeu9CYhHiNWczw" name="genero">
+        <modelElement href="PruebasEscritas.uml#_5KeOcXUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yDzC3UDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yDzDHUDEeu9CYhHiNWczw" name="Genero">
+          <modelElement href="PruebasEscritas.uml#_5Gu98HUDEeu9CYhHiNWczw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5yDzDXUDEeu9CYhHiNWczw" name="duracion">
+        <modelElement href="PruebasEscritas.uml#_5KeOcnUDEeu9CYhHiNWczw"/>
+        <cardinality xmi:id="_5yDzDnUDEeu9CYhHiNWczw" label="1" max="1" min="1"/>
+        <type xmi:id="_5yDzD3UDEeu9CYhHiNWczw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
