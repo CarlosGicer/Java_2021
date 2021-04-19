@@ -1,4 +1,4 @@
-package ejerciciost6.biblioteca;
+package ejerciciost7.biblioteca;
 
 public class Revista extends Publicacion implements Prestable {
 

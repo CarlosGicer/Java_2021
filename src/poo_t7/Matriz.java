@@ -5,7 +5,6 @@ public class Matriz <T extends Number>{
 	private int longitud=10;
 
 	
-	
 	/**
 	 * @param matriz
 	 */

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ejerciciost6.biblioteca;
+package ejerciciost7.biblioteca;
 
 import java.util.Scanner;
 
