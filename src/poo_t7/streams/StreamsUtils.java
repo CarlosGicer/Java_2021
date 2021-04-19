@@ -12,7 +12,9 @@ public class StreamsUtils {
 
 	public static void main(String[] args) {
 	
-		List<String> palabras = Arrays.asList("hola", "don", "pepito", "hola", "don", "jose", "amalia", "zizou", "dani");
+List<String> palabras = Arrays.asList("hola", "don", "pepito", "hola", "don", "jose", "amalia", "zizou", "dani");
+		
+		System.out.println(palabras.stream().filter( c -> c.length() > 3 ).count());
 		
 		//palabras.sort( (s1, s2) -> s1.compareToIgnoreCase(s2) );
 		
@@ -20,11 +22,18 @@ public class StreamsUtils {
 		
 		palabras.stream()
 					.filter( c -> c.length() > 3 )
-					.map( s -> s.length())
+					.sorted()
 					//.filter( c -> c.contains("o"))
-					.forEach(System.out::println)
-					;
+					.forEach(System.out::println);
 		
+		System.out.println("------------------");
+		
+		System.out.println(palabras.stream()
+				.filter( c -> c.length() > 3 )
+				.map( s -> s.length())
+				.sorted()
+				.reduce( (s1,s2) -> s1 + s2));
+				
 		System.out.println("------------------");
 		
 		List<String> largas = palabras.stream()
