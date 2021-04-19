@@ -3,14 +3,17 @@
  */
 package ejerciciost7.biblioteca;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.TreeSet;
 
 /**
  * @author alumno
  *
  */
-public class Publicacion implements Comparable<Publicacion> {
+public class Publicacion implements Prestable, Comparable<Publicacion> {
 
+	private boolean prestado;
 	protected String isbn;
 	protected String titulo;
 	protected int año;
@@ -23,7 +26,6 @@ public class Publicacion implements Comparable<Publicacion> {
 	 */
 	public Publicacion() {
 		super();
-		autores = new TreeSet<>();
 	}
 
 
@@ -33,13 +35,30 @@ public class Publicacion implements Comparable<Publicacion> {
 	 * @param año
 	 * @param paginas
 	 */
-	public Publicacion(String isbn, String titulo, int año, int paginas) {
+	public Publicacion(String isbn, String titulo, int año, int paginas, boolean prestado) {
 		super();
 		this.isbn = isbn;
 		this.titulo = titulo;
 		this.año = año;
 		this.paginas = paginas;
-		autores = new TreeSet<>();
+		this.prestado = prestado;
+		this.autores = new TreeSet<>();
+	}
+
+
+	/**
+	 * @return the prestado
+	 */
+	public boolean isPrestado() {
+		return prestado;
+	}
+
+
+	/**
+	 * @param prestado the prestado to set
+	 */
+	public void setPrestado(boolean prestado) {
+		this.prestado = prestado;
 	}
 
 
@@ -118,6 +137,8 @@ public class Publicacion implements Comparable<Publicacion> {
 		builder.append(año);
 		builder.append(", paginas=");
 		builder.append(paginas);
+		builder.append(", prestado=");
+		builder.append(prestado);
 		builder.append("]");
 		return builder.toString();
 	}
@@ -148,29 +169,44 @@ public class Publicacion implements Comparable<Publicacion> {
 			return false;
 		return true;
 	}
+	
+	@Override
+	public void presta() {
+		this.prestado = true;
+
+	}
+
+	@Override
+	public void devuelve() {
+		this.prestado = false;
+
+	}
+
+	@Override
+	public boolean estaPrestado() {
+		
+		return prestado;
+	}
 
 
 	@Override
 	public int compareTo(Publicacion o) {
 		return this.getTitulo().compareTo(o.getTitulo());
 	}
-
 	
 	public void addAutor(String nombre, String apellidos) {
-		Autor a = new Autor(nombre, apellidos);
-		a.getLibrosPublicados().add(this); //Añadimos la publicación a las del autor
-		autores.add(a);
+		
+		Autor a = new Autor(nombre,apellidos);
+		//a.addPublicacion(this); //Al autor le ponemos esta publicacion
+		autores.add(a); //No hace falta contains
 	}
-
+	
 	public boolean deleteAutor(String nombre, String apellidos) {
-		return autores.remove(new Autor(nombre, apellidos));
+		return autores.remove(new Autor(nombre,apellidos));
 	}
-
+	
 	public TreeSet<Autor> getAutores() {
 		return autores;
 	}
-		
-	
-	
 	
 }

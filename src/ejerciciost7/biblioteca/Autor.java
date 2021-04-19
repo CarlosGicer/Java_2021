@@ -1,7 +1,6 @@
 package ejerciciost7.biblioteca;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.TreeSet;
 
 public class Autor implements Comparable<Autor> {
 
@@ -11,28 +10,14 @@ public class Autor implements Comparable<Autor> {
 	private String ciudad;
 	private String direccion;
 	private String email;
-	private List<Publicacion> librosPublicados;
+	//private TreeSet<Publicacion> publicaciones;
+	
 	
 	public Autor() {
-		super();
+		
 	}
 
-	/**
-	 * @param nombre
-	 * @param apellidos
-	
-	 */
-	public Autor(String nombre, String apellidos) {
-		super();
-		this.nombre = nombre;
-		this.apellidos = apellidos;
-		this.edad = 0;
-		this.ciudad = "ninguna";
-		this.direccion = "";
-		this.email = "";
-		librosPublicados = new ArrayList<>();
-	}
-	
+
 	/**
 	 * @param nombre
 	 * @param apellidos
@@ -49,7 +34,24 @@ public class Autor implements Comparable<Autor> {
 		this.ciudad = ciudad;
 		this.direccion = direccion;
 		this.email = email;
+		//this.publicaciones = new TreeSet<>();
 	}
+
+	/**
+	 * @param nombre
+	 * @param apellidos
+	 */
+	public Autor(String nombre, String apellidos) {
+		super();
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.edad = 0;
+		this.ciudad = "";
+		this.direccion = "";
+		this.email = "";
+		//this.publicaciones = new TreeSet<>();
+	}
+	
 
 	/**
 	 * @return the nombre
@@ -58,12 +60,14 @@ public class Autor implements Comparable<Autor> {
 		return nombre;
 	}
 
+
 	/**
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
 
 	/**
 	 * @return the apellidos
@@ -72,12 +76,14 @@ public class Autor implements Comparable<Autor> {
 		return apellidos;
 	}
 
+
 	/**
 	 * @param apellidos the apellidos to set
 	 */
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
+
 
 	/**
 	 * @return the edad
@@ -86,12 +92,14 @@ public class Autor implements Comparable<Autor> {
 		return edad;
 	}
 
+
 	/**
 	 * @param edad the edad to set
 	 */
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+
 
 	/**
 	 * @return the ciudad
@@ -100,12 +108,14 @@ public class Autor implements Comparable<Autor> {
 		return ciudad;
 	}
 
+
 	/**
 	 * @param ciudad the ciudad to set
 	 */
 	public void setCiudad(String ciudad) {
 		this.ciudad = ciudad;
 	}
+
 
 	/**
 	 * @return the direccion
@@ -114,12 +124,14 @@ public class Autor implements Comparable<Autor> {
 		return direccion;
 	}
 
+
 	/**
 	 * @param direccion the direccion to set
 	 */
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
+
 
 	/**
 	 * @return the email
@@ -128,12 +140,14 @@ public class Autor implements Comparable<Autor> {
 		return email;
 	}
 
+
 	/**
 	 * @param email the email to set
 	 */
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
 
 	@Override
 	public String toString() {
@@ -154,6 +168,7 @@ public class Autor implements Comparable<Autor> {
 		return builder.toString();
 	}
 
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -162,6 +177,7 @@ public class Autor implements Comparable<Autor> {
 		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
 		return result;
 	}
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -185,15 +201,25 @@ public class Autor implements Comparable<Autor> {
 		return true;
 	}
 
+
 	@Override
 	public int compareTo(Autor o) {
 		return this.getApellidos().compareTo(o.getApellidos());
 	}
-	 
-	public List<Publicacion> getLibrosPublicados() {
-		return librosPublicados;
+	
+	/**
+	 * Añade una publicación al autor
+	 * @param p
+	 */
+	/*
+	public void addPublicacion(Publicacion p) {
+		publicaciones.add(p);
 	}
 	
+	public TreeSet<Publicacion> getPublicaciones() {
+		return publicaciones;
+	}
+	*/
 	
 
 }

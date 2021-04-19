@@ -1,12 +1,13 @@
 package ejerciciost7.biblioteca;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Collections;
+import java.util.List;
 
 public class Biblioteca {
 
 	private List<Publicacion> catalogo;
+	//private List<Autor> autores;
 	private String direccion;
 	
 		
@@ -52,8 +53,12 @@ public class Biblioteca {
 	 * Añade una Publicacion (Libro o Revista) al catálogo de publicaciones
 	 * @param unaPub
 	 */
-	public void adquirirMaterial(Publicacion unaPub) {		
-		catalogo.add(unaPub);
+	public void adquirirMaterial(Publicacion unaPub) {
+		if (!catalogo.contains(unaPub)) //No añadimos repetidos. Para la búsqueda binaria
+			catalogo.add(unaPub);
+		
+		//Ordenamos la lista cada vez que añado un elemento
+		Collections.sort(catalogo);
 	}
 	
 	
@@ -63,28 +68,38 @@ public class Biblioteca {
 	 * @return
 	 */
 	public Publicacion buscar(String titulo) {
-		/*
-		for(Publicacion pub : catalogo) {
-			if (pub.getTitulo().equals(titulo))
-				return pub;
-		}
-		*/
-		int posicion = Collections.binarySearch(catalogo, new Publicacion("",titulo,0,0));
-		if (posicion >= 0)
+		int posicion = Collections.binarySearch(catalogo, 
+								new Publicacion("", titulo, 2021, 100, false));
+		
+		if (posicion >= 0) {
 			return catalogo.get(posicion);
+		}
 		
 		return null;
 	}
 	
-	public List<Publicacion> buscar(String nombre, String apellidos) {
-		List<Publicacion> lista = new ArrayList<>();
-		//Si hay que recorrer todas las publicaciones no es del todo eficiente
-		for(Publicacion p : catalogo) { 
-			if (p.getAutores().contains(new Autor(nombre,apellidos))) {
-				lista.add(p);
+	/**
+	 * Se recorre todas las publicaciones y devuelve una lista con aquellas
+	 * en las que aparece el autor como autor de la misma
+	 * @param autor
+	 * @return
+	 */
+	public List<Publicacion> buscar(Autor autor) {
+		List<Publicacion> pubs = new ArrayList<>();
+		boolean encontrado = false;
+		//No es realmente eficiente
+		for (Publicacion p: catalogo) {
+			encontrado = false;
+			for (Autor a: p.getAutores()) {
+				if (a.equals(autor)) {
+					//Añadimos la publicación a las que ha escrito ese autor
+					pubs.add(p);
+					break;
+				}
 			}
 		}
-		return lista;
+		
+		return pubs;
 	}
 
 
@@ -92,7 +107,8 @@ public class Biblioteca {
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Biblioteca [catalogo=");
-		builder.append(catalogo);
+		for (Publicacion p : catalogo)
+			builder.append(p + System.getProperty("line.separator"));
 		builder.append(", direccion=");
 		builder.append(direccion);
 		builder.append("]");
