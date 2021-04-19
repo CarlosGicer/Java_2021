@@ -1,6 +1,7 @@
 package poo_t7.streams;
 
 import java.util.Arrays;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;

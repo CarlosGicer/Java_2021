@@ -7,7 +7,7 @@ package ejerciciost7.tienda;
  * @author sjgui
  *
  */
-public class Producto {
+public class Producto implements Comparable<Producto> {
 
 	private String codigo;
 	private String nombre;
@@ -68,6 +68,14 @@ public class Producto {
 	 */
 	public String getCodigo() {
 		return codigo;
+	}
+
+	
+	/**
+	 * @param codigo the codigo to set
+	 */
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
 	}
 
 	/**
@@ -140,11 +148,13 @@ public class Producto {
 		this.categoria = categoria;
 	}
 	
+	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((codigo == null) ? 0 : codigo.hashCode());
+		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
 		return result;
 	}
 
@@ -152,13 +162,15 @@ public class Producto {
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
-		if (!(obj instanceof Producto))
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
 			return false;
 		Producto other = (Producto) obj;
-		if (codigo == null) {
-			if (other.codigo != null)
+		if (nombre == null) {
+			if (other.nombre != null)
 				return false;
-		} else if (!codigo.equals(other.codigo))
+		} else if (!nombre.equals(other.nombre))
 			return false;
 		return true;
 	}
@@ -180,6 +192,11 @@ public class Producto {
 		builder.append(categoria);
 		builder.append("]");
 		return builder.toString();
+	}
+
+	@Override
+	public int compareTo(Producto o) {
+		return this.getNombre().compareTo(o.getNombre());
 	}
 	
 	
