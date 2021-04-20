@@ -78,8 +78,8 @@ public class DAOClientes {
 			if (result == null)
 				result = new ArrayList<>();
 
-			result.add(new Cliente(rs.getInt("id"), rs.getString("nombre"), rs.getString("direccion"), rs.getString("localidad"),
-									rs.getString("movil"), rs.getString("dni")));
+			result.add(new Cliente(rs.getInt("id"), rs.getString("nombre"), rs.getString("direccion"), 
+						rs.getString("localidad"), rs.getString("movil"), rs.getString("dni")));
 		}
 
 		rs.close();
