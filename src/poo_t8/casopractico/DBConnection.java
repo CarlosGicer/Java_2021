@@ -1,9 +1,9 @@
 package poo_t8.casopractico;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.Properties;
+import javax.sql.rowset.JdbcRowSet;
+import javax.sql.rowset.RowSetFactory;
+import javax.sql.rowset.RowSetProvider;
 
 public class DBConnection {
 	
@@ -11,20 +11,30 @@ public class DBConnection {
 	public static final String USERNAME = "admin";
 	public static final String PASSWORD = "admin";
 	
-	private static Connection instance = null;
+	private static JdbcRowSet rowSet = null;
 	
 	private DBConnection() { }
 	
-	public static Connection getConnection() throws SQLException {
-		if (instance == null) {
-			Properties props = new Properties();
-			props.put("user", USERNAME);
-			props.put("password", PASSWORD);
-			Connection instance = DriverManager.getConnection(JDBC_URL, props);
-			instance.setAutoCommit(false);
+	public static JdbcRowSet getConnection() throws SQLException {
+		
+		RowSetFactory myRowSetFactory = null;
+		
+		try {
+			if (rowSet == null) {
+				myRowSetFactory = RowSetProvider.newFactory();
+				rowSet = myRowSetFactory.createJdbcRowSet();
+				
+				rowSet.setUrl(JDBC_URL);
+				rowSet.setUsername(USERNAME);
+				rowSet.setPassword(PASSWORD);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 		
-		return instance;
+		return rowSet;	
+		
+		
 	}
 
 }

@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="lib/commons-codec-1.15.jar"/>
 	<classpathentry kind="lib" path="lib/pdfbox-3.0.0-RC1.jar"/>
 	<classpathentry kind="lib" path="lib/twitter4j-async-4.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-8.0.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
