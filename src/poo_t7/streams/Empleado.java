@@ -7,7 +7,7 @@ package poo_t7.streams;
  * @author alumno
  *
  */
-public class Empleado {
+public class Empleado implements Comparable<Empleado> {
 
 	public enum Departamento { COMERCIAL, DESARROLLO, RRHH }
 	
@@ -105,6 +105,11 @@ public class Empleado {
 		} else if (!nombre.equals(other.nombre))
 			return false;
 		return true;
+	}
+
+	@Override
+	public int compareTo(Empleado o) {
+		return (int) (this.getSalario() - o.getSalario());
 	}
 	
 	
