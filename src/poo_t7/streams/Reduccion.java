@@ -30,7 +30,7 @@ public class Reduccion {
 		String nombre = ibm.stream()
 			.map( e -> e.getNombre()) //A partir de aquí el stream es solo de nombres String
 			.limit(10)
-			.reduce( "" , (x,y) -> x.concat(y+" ")); //"" primer elemento
+			.reduce( "" , (x,y) -> x.concat(y+" ")); //"" primer elemento. Se puede usar +
 		    //Luego va concatenando cada elemento del stream
 			//Se va operando el resultado de la operación con el siguiente elemento
 		
